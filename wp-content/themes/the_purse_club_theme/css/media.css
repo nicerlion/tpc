@@ -1,0 +1,2306 @@
+/*--------------------------------------------------------------
+20.0 Print
+--------------------------------------------------------------*/
+
+@media print {
+    
+        /* Hide elements */
+    
+        form,
+        button,
+        input,
+        select,
+        textarea,
+        .navigation-top,
+        .social-navigation,
+        #secondary,
+        .content-bottom-widgets,
+        .header-image,
+        .panel-image-prop,
+        .icon-thumb-tack,
+        .page-links,
+        .edit-link,
+        .post-navigation,
+        .pagination.navigation,
+        .comments-pagination,
+        .comment-respond,
+        .comment-edit-link,
+        .comment-reply-link,
+        .comment-metadata .edit-link,
+        .pingback .edit-link,
+        .site-footer aside.widget-area,
+        .site-info {
+            display: none !important;
+        }
+    
+        .entry-footer,
+        #comments,
+        .site-footer,
+        .single-featured-image-header {
+            border: 0;
+        }
+    
+        /* Font sizes */
+    
+        body {
+            font-size: 12pt;
+        }
+    
+        h1 {
+            font-size: 24pt;
+        }
+    
+        h2 {
+            font-size: 22pt;
+        }
+    
+        h3 {
+            font-size: 17pt;
+        }
+    
+        h4 {
+            font-size: 12pt;
+        }
+    
+        h5 {
+            font-size: 11pt;
+        }
+    
+        h6 {
+            font-size: 12pt;
+        }
+    
+        .page .panel-content .entry-title,
+        .page-title,
+        body.page:not(.twentyseventeen-front-page) .entry-title {
+            font-size: 10pt;
+        }
+    
+        /* Layout */
+    
+        .wrap {
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            max-width: none;
+        }
+    
+        /* Site Branding */
+    
+        .site-header {
+            background: transparent;
+            padding: 0;
+        }
+    
+        .custom-header-media {
+            padding: 0;
+        }
+    
+        .twentyseventeen-front-page.has-header-image .site-branding,
+        .twentyseventeen-front-page.has-header-video .site-branding,
+        .home.blog.has-header-image .site-branding,
+        .home.blog.has-header-video .site-branding {
+            position: relative;
+        }
+    
+        .site-branding {
+            margin-top: 0;
+            margin-bottom: 1.75em !important; /* override styles added by JavaScript */
+        }
+    
+        .site-title {
+            font-size: 25pt;
+        }
+    
+        .site-description {
+            font-size: 12pt;
+            opacity: 1;
+        }
+    
+        /* Posts */
+    
+        .single-featured-image-header {
+            background: transparent;
+        }
+    
+        .entry-meta {
+            font-size: 9pt;
+        }
+    
+        /* Colors */
+    
+        body,
+        .site {
+            background: none !important; /* Brute force since user agents all print differently. */
+        }
+    
+        body,
+        a,
+        .site-title a,
+        .twentyseventeen-front-page.has-header-image .site-title,
+        .twentyseventeen-front-page.has-header-video .site-title,
+        .twentyseventeen-front-page.has-header-image .site-title a,
+        .twentyseventeen-front-page.has-header-video .site-title a {
+            color: #222 !important; /* Make sure color schemes don't affect to print */
+        }
+    
+        h2,
+        h5,
+        blockquote,
+        .site-description,
+        .twentyseventeen-front-page.has-header-image .site-description,
+        .twentyseventeen-front-page.has-header-video .site-description,
+        .entry-meta,
+        .entry-meta a {
+            color: #777 !important; /* Make sure color schemes don't affect to print */
+        }
+    
+        .entry-content blockquote.alignleft,
+        .entry-content blockquote.alignright {
+            font-size: 11pt;
+            width: 34%;
+        }
+    
+        .site-footer {
+            padding: 0;
+        }
+    }
+    
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	/* Navigation */
+
+	.navigation-top {
+		bottom: 0;
+		font-size: 14px;
+		font-size: 0.875rem;
+		left: 0;
+		position: absolute;
+		right: 0;
+		width: 100%;
+		z-index: 3;
+	}
+
+	.navigation-top .wrap {
+		max-width: 1000px;
+		/* The font size is 14px here and we need 50px padding in ems */
+		padding: 0.75em 3.4166666666667em;
+	}
+
+	.navigation-top nav {
+		margin-left: -1.25em;
+	}
+
+	.site-navigation-fixed.navigation-top {
+		bottom: auto;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		width: 100%;
+		z-index: 7;
+	}
+
+	.admin-bar .site-navigation-fixed.navigation-top {
+		top: 32px;
+	}
+
+	/* Main Navigation */
+
+	.js .menu-toggle,
+	.js .dropdown-toggle {
+		display: none;
+	}
+
+	.main-navigation {
+		width: auto;
+	}
+
+	.js .main-navigation ul,
+	.js .main-navigation ul ul,
+	.js .main-navigation > div > ul {
+		display: block;
+	}
+
+	.main-navigation ul {
+		background: transparent;
+		padding: 0;
+	}
+
+	.main-navigation > div > ul {
+		border: 0;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.main-navigation li {
+		border: 0;
+		display: inline-block;
+	}
+
+	.main-navigation li li {
+		display: block;
+	}
+
+	.main-navigation a {
+		padding: 1em 1.25em;
+	}
+
+	.main-navigation ul ul {
+		background: #fff;
+		border: 1px solid #bbb;
+		left: -999em;
+		padding: 0;
+		position: absolute;
+		top: 100%;
+		z-index: 99999;
+	}
+
+	.main-navigation ul li.menu-item-has-children:before,
+	.main-navigation ul li.menu-item-has-children:after,
+	.main-navigation ul li.page_item_has_children:before,
+	.main-navigation ul li.page_item_has_children:after {
+		border-style: solid;
+		border-width: 0 6px 6px;
+		content: "";
+		display: none;
+		height: 0;
+		position: absolute;
+		right: 1em;
+		bottom: -1px;
+		width: 0;
+		z-index: 100000;
+	}
+
+	.main-navigation ul li.menu-item-has-children.focus:before,
+	.main-navigation ul li.menu-item-has-children:hover:before,
+	.main-navigation ul li.menu-item-has-children.focus:after,
+	.main-navigation ul li.menu-item-has-children:hover:after,
+	.main-navigation ul li.page_item_has_children.focus:before,
+	.main-navigation ul li.page_item_has_children:hover:before,
+	.main-navigation ul li.page_item_has_children.focus:after,
+	.main-navigation ul li.page_item_has_children:hover:after {
+		display: block;
+	}
+
+	.main-navigation ul li.menu-item-has-children:before,
+	.main-navigation ul li.page_item_has_children:before {
+		border-color: transparent transparent #bbb;
+		bottom: 0;
+	}
+
+	.main-navigation ul li.menu-item-has-children:after,
+	.main-navigation ul li.page_item_has_children:after {
+		border-color: transparent transparent #fff;
+	}
+
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+		left: 100%;
+		right: auto;
+	}
+
+	.main-navigation ul ul a {
+		padding: 0.75em 1.25em;
+		width: 16em;
+	}
+
+	.main-navigation li li {
+		-webkit-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+	}
+
+	.main-navigation li li:hover,
+	.main-navigation li li.focus {
+		background: #767676;
+	}
+
+	.main-navigation li li a {
+		-webkit-transition: color 0.3s ease-in-out;
+		transition: color 0.3s ease-in-out;
+	}
+
+	.main-navigation li li.focus > a,
+	.main-navigation li li:focus > a,
+	.main-navigation li li:hover > a,
+	.main-navigation li li a:hover,
+	.main-navigation li li a:focus,
+	.main-navigation li li.current_page_item a:hover,
+	.main-navigation li li.current-menu-item a:hover,
+	.main-navigation li li.current_page_item a:focus,
+	.main-navigation li li.current-menu-item a:focus {
+		color: #fff;
+	}
+
+	.main-navigation ul li:hover > ul,
+	.main-navigation ul li.focus > ul {
+		left: 0.5em;
+		right: auto;
+	}
+
+	.main-navigation .menu-item-has-children > a > .icon,
+	.main-navigation .page_item_has_children > a > .icon {
+		display: inline;
+		left: 5px;
+		position: relative;
+		top: -1px;
+	}
+
+	.main-navigation ul ul .menu-item-has-children > a > .icon,
+	.main-navigation ul ul .page_item_has_children > a > .icon {
+		margin-top: -9px;
+		left: auto;
+		position: absolute;
+		right: 1em;
+		top: 50%;
+		-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+		-ms-transform: rotate(-90deg); /* IE 9 */
+		transform: rotate(-90deg);
+	}
+
+	.main-navigation ul ul ul {
+		left: -999em;
+		margin-top: -1px;
+		top: 0;
+	}
+
+	.main-navigation ul ul li.menu-item-has-children.focus:before,
+	.main-navigation ul ul li.menu-item-has-children:hover:before,
+	.main-navigation ul ul li.menu-item-has-children.focus:after,
+	.main-navigation ul ul li.menu-item-has-children:hover:after,
+	.main-navigation ul ul li.page_item_has_children.focus:before,
+	.main-navigation ul ul li.page_item_has_children:hover:before,
+	.main-navigation ul ul li.page_item_has_children.focus:after,
+	.main-navigation ul ul li.page_item_has_children:hover:after {
+		display: none;
+	}
+
+	.site-header .site-navigation-fixed .menu-scroll-down {
+		display: none;
+	}
+
+	/* Scroll down arrow */
+
+	.site-header .menu-scroll-down {
+		display: block;
+		padding: 1em;
+		position: absolute;
+		right: 0;
+	}
+
+	.site-header .menu-scroll-down .icon {
+		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		-ms-transform: rotate(90deg); /* IE 9 */
+		transform: rotate(90deg);
+	}
+
+	.site-header .menu-scroll-down {
+		color: #fff;
+		top: 2em;
+	}
+
+	.site-header .navigation-top .menu-scroll-down {
+		color: #767676;
+		top: 0.7em;
+	}
+
+	.menu-scroll-down:focus {
+		outline: thin dotted;
+	}
+
+	.menu-scroll-down .icon {
+		height: 18px;
+		width: 18px;
+	}
+	.left-ad {
+		text-align: center;
+	}
+	
+	.last-ad {
+		text-align: center;
+	}
+	#main-navigation {
+		display: none;
+	}
+	.tpc-login-section {
+		display: none;
+	}
+	#main-navigation ul li a{
+		padding: 13px 0;
+	}
+	.icons-ninth-section {
+   		min-height: 410px;
+	}
+
+	.icon-sfs img {
+		padding-left: 0;
+		margin: 0 auto;
+    	display: block;
+	} 
+	.icon-ffs img {
+		margin: 0 auto;
+    	display: block;
+	}
+	.icons-fn-section h5{
+		text-align: center;
+	}
+	.icons-sn-section h5 {
+		text-align: center;
+	}
+
+	/* new styles*/
+	.hitw-box {
+		border-right: none;
+		min-height: 265px;
+	}
+	.hero-text {
+		padding-bottom: 30px;
+	}
+	.hero-button {
+		padding-bottom: 33px;
+		
+	}
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger.hero-button-box {
+		font-size: 150%;
+    	font-weight: 700;
+    	padding: 8px 0% !important;
+    	border-radius: 5px;
+    	margin: 0 24px;
+    	text-align: center;
+	}
+	.witpc-mini-box {
+		border-right: none;
+		min-height: 66px;
+	}
+	.witpc-text {
+		margin-bottom: 0;
+	}
+	.what-is-the-purse-club p {
+		padding: 0 16px 7px;
+	}
+	.hiw-button {
+		padding: 0 43px 40px;
+	}
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger .hiw-button{
+		text-align: center;
+		font-weight: 700;
+		font-size: 161%;
+	}
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+	    font-size: 18px;
+	    font-weight: 400;
+	    padding: 10px 44px !important;
+	    background-color: #c11111;
+	    border-radius: 5px;
+	    text-align: center;
+	}
+	.hiw-text {
+		padding-bottom: 0;
+	}
+	.prior-collections {
+		min-height: 535px;
+	}
+	.hitw-big-box{
+		padding-bottom: 0px;
+	}
+	.features-box {
+		padding-top: 21px;
+	}
+	.features-box p {
+		float: left;
+		margin-top: 5px;
+	}
+	.features-box h5 {
+		float: right;
+		width: 60%;
+	}
+	.features img {
+		margin-top: 11px;
+	}
+	.features-left {
+		padding-top: 0;
+		padding-bottom: 19px;
+	}
+	.features-right { 
+		padding-top: 0;
+		padding-bottom: 19px;
+	}
+	.fb-down {
+		padding-top: 0;
+		border: none;
+	}
+	.features-down {
+		padding-top: 14px;
+	}
+	.wdb-section {
+		padding-bottom: 249px;
+	}
+	.slider-text {
+		padding: 0 12% 0 12%;
+	}
+	.customers-love-us {
+		padding: 35px 1% 0 1%;
+	}
+
+	/*---------------------------------------------- upsell design page-------------------------------------*/
+	.ups-container {
+		background-image: none; 
+	}
+	.upd-purse img {
+		width: 100%;
+	}
+	.ups-container {
+		
+	}
+	.upd-item-container {
+	    padding-left: 15px;
+	}
+	.upd-purse h2 {
+		
+		width: 100%;
+	}
+	.upd-purse img {
+		display: block;
+		margin: 0 auto;
+	}
+	.tpc-page-header h1 {
+		font-size: 173%;
+	}
+	.tpc-header-p {
+		width: 85%;
+	}
+
+	/*----------------------------------------------About Us page---------------------------------------------*/
+
+	.aboutus-big-section h1 {
+		margin: 0;
+	    color: #000;
+	    text-align: center;
+	    font-size: 240%;
+	    font-weight: 500;
+	}
+	.aboutus-header-p-mob {
+		margin: 0;
+	    color: #000;
+	    text-align: center;
+	    font-size: 10vw;
+	    font-weight: 700;
+	    padding-bottom: 30px;
+	}
+	.aboutus-woman-img {
+		padding-bottom: 40px;
+	}
+	.aboutus-first-text {
+		padding-bottom: 25px;
+	}
+	.aboutus-first-text h2 {
+		text-align: center;
+		font-weight: 600;
+		font-size: 5vw;
+	}
+	.aboutus-first-text p {
+		text-align: justify;
+	}
+	.aboutus-second-text {
+		padding-bottom: 40px;
+	}
+	.aboutus-second-text h2 {
+		text-align: center;
+		font-weight: 600;
+		font-size: 5vw;
+	}
+	.aboutus-second-text p {
+		text-align: justify;
+	}
+	.underline-aboutus {
+		width: 214px !important;
+	}
+	.aboutus-woman-img img {
+		margin: 0 auto;
+    	display: block;
+	}
+	.receipt-big-box {
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
+	.receipt-first-text {
+		padding-bottom: 15px;
+	}
+	.receipt-first-text h2 {
+		text-align: left;
+	    font-weight: 500;
+	    font-size: 122%;
+	    margin-top: 17px;
+   		padding-bottom: 11px;
+	}
+	.receipt-first-text p {
+		text-align: justify;
+		margin-bottom: 0;
+    	font-size: 91%;
+	}
+	.receipt-second-text {
+		padding-bottom: 40px;
+	}
+	.receipt-second-text h2 {
+		text-align: left;
+	    font-weight: 500;
+	    font-size: 122%;
+	    margin-top: 17px;
+   		padding-bottom: 11px;
+	}
+	.receipt-second-text p {
+		text-align: justify;
+		margin-bottom: 0;
+    	font-size: 91%;
+	}
+	.underline-receipt {
+		width: 100% !important;
+		border: 2px solid;
+		margin-bottom: 21px;
+	}
+	.receipt-third-text {
+		padding-bottom: 25px;
+	}
+	.receipt-third-text h2 {
+		text-align: left;
+	    font-weight: 500;
+	    font-size: 112%;
+	    margin-top: 17px;
+   		padding-bottom: 11px;
+	}
+	.receipt-third-text h3 {
+		text-align: center;
+	    font-weight: 700;
+	    font-size: 153%;
+	    font-weight: 700;
+	    margin-top: 20px;
+	    padding-bottom: 7px;
+	    margin-bottom: 0;
+	}
+	.receipt-third-text h3.total-order {
+		background-color: #fff;
+		margin-bottom: 15px!important;
+    	margin-top: 15px!important;
+	}
+	.receipt-black-sect {
+		background-color: #000;
+	    color: #fff;
+	    text-align: center !important;
+	    margin-bottom: 0 !important;
+	    font-size: 122% !important;
+	    padding-top: 2px !important;
+	    padding-bottom: 3px !important;
+	    border: none !important;
+	}
+	.receipt-third-text h4 {
+		text-align: center;
+	    margin: 0;
+	    font-size: 150%;
+	    padding-top: 28px;
+	    padding-bottom: 14px;
+	}
+	.receipt-third-text sub {
+		font-size: 175%;
+	}
+	.receipt-third-text p {
+		text-align: center;
+		border-right: 25px solid #bae1ff;
+    	border-left: 25px solid #bae1ff;
+    	margin-bottom: 0;
+    	padding-bottom: 20px;
+    	font-size: 106%;
+    	font-weight: 700;
+	}
+	.receipt-third-text h5 {
+		text-align: center;
+    	font-size: 109%;
+    	font-weight: 600;
+	}
+	.receipt-big-section {
+		margin-bottom: 20px;
+	}
+	/*------------------------------------------- FAQ 320 ----------------------------------------*/
+	.faq-first-text {
+		padding-bottom: 25px;
+	}
+	.faq-first-text h2 {
+		text-align: center;
+		font-weight: 600;
+		font-size: 132%;
+	}
+	.faq-first-text p {
+		text-align: justify;
+	}
+	.tpc-accordion-footer {
+		border: none;
+    	padding: 0px 27px;
+	}
+
+	/*----------------------------------------------My account----------------------------------------*/
+	
+	.small-img {
+		display: block;
+	}
+	.big-img {
+		display: none;
+	}
+	.hero-s-right {
+		right: 5%;
+		width: 52%;
+	}
+	.hero-s-button a {
+		width: 80%!important;
+		padding: 5px!important;
+		margin-top: 5px!important;
+		font-size: 130%!important;
+	}
+	.features-s-box-item {
+		border-bottom: 1px solid #828282;
+	}
+	.features-s-box-item:last-child {
+		border-bottom: none;
+	}	
+	.tpc-page-header {
+		min-height: 100%;
+	}
+	.faq-page-header {
+		min-height: 100%;
+	}
+	.features-s h2 {
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-size: 200%;
+	}
+	.witpc-text-s p {
+		font-size: 120%;
+		margin-bottom: 22px;
+	}
+	.features-s p {
+		margin-bottom: 15px;
+	}
+	.features-s h4 {
+		margin-top: 15px;
+	}
+	.features-s-box {
+		margin-bottom: 10px;
+	}
+	.what-is-the-purse-club .witpc-box-s {
+		border-right: none;
+	}
+	.cta-btn-home-s a {
+		margin-top: 25px;
+		margin-bottom: 50px;
+	}
+	.accordion-faq-text {
+		padding: 15px 35px 15px 10px !important;
+	}
+	.presell-one-header a {
+		margin: 15px 0;
+	}
+	.presell-one-logo {
+		display: block;
+		margin: 0 auto;
+	}
+	.presell-one-top-header h1 {
+		text-align: center;
+		margin-right: 0;
+	}
+	.float-r {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.align-r {
+		float: none;
+		margin: 0 auto 20px;
+		display: block;
+	}
+	.align-l {
+		float: none;
+		margin: 0 auto 20px;
+		display: block;
+	}
+	/*----------------------------------------- pre sell four ----------------------------------------------*/
+	.presell-four-top-two img {
+   		margin-top: 15px;
+	}
+	.presell-four-header-content h2 {
+		font-size: 220%;
+	}
+	.presell-four-subtitle ul li {
+		font-size: 122%;
+		margin-right: 26px;
+	}
+	.presell-four-footer-dollarwatch img {
+		margin: 0 auto;		 
+		display: block;
+		margin-bottom: 18px;
+	}
+	.presell-four-footer-advertorial img {
+	    float: none;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 10px;
+	}
+	.presell-four-footer-advertorial p {
+		text-align: center;
+		float: none;
+	}
+	.presell-four-footer-terms ul  {
+		text-align: center;
+	}
+	.presell-four-footer-terms ul li {
+		display: inline-block;
+		float: none;
+		margin-right: 10px;
+	}
+	.presell-four-menu-1 ul {
+		min-height: 80px;
+	}
+	.presell-four-header span {
+		
+	}
+	/*------------------------------------------------- Presell five ----------------------------------------------*/
+	.presell-five-float-r {
+    	float: none;
+    	margin: 0 auto;
+    	display: block;
+	}
+
+	.presell-five-seemore-last {
+		margin-bottom: 50px;
+	}
+
+/*------------------------------------------------- Presell six ----------------------------------------------*/
+	.presell-six-header {
+	  margin-bottom: 50px;
+	}
+	.presell-six-footer-advertorial img {
+	    float: none;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 10px;
+	}
+	.presell-six-footer-terms ul  {
+		text-align: center;
+	}
+	.presell-six-footer-terms ul li {
+		display: inline-block;
+		float: none;
+		margin-right: 10px;
+	}
+	.presell-six-footer-dollarwatch {
+		border-bottom: none; 
+	}
+		
+	/*------------------------------------------------- Quiz  ----------------------------------------------*/
+	.tpc-purse-selection span {
+		font-size: 115%;
+	}
+	.tpc-purse-type span {
+		font-size: 115%;
+	}
+	.quiz-color-text {
+		font-size: 100%;
+	}
+	.right-arrow-vertical.arrow-vertical-35 {
+		display: none;
+	}
+	.right-arrow-vertical.arrow-vertical-65 {
+		display: none;
+	}
+
+	/*----------------------- THE PERFECT PURSE HOME STYLES -------------------------------*/
+	.tpp-hiw-copy {
+		margin-bottom: 60px;
+	}
+
+	.tpp-hiw-copy:last-child {
+		margin-bottom: 0;
+	}
+
+	.tpp-hiw-content img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.tpp-carousel-container ul {
+		padding: 0 10px;
+	}
+
+	.tpp-carousel-container ul li {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.tpp-btn-home-s {
+		text-align: center;
+		padding: 0;
+		clear: both;
+		max-width: 375px;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	.tpp-btn-home-s a {
+		font-size: 200%;
+		font-weight: 600;
+		letter-spacing: -2px;
+		color: #fff;
+		background-color: #cd3333;
+		max-width: 330px;
+		display: block;
+		width: calc(100% - 15px);
+		padding: 15px !important;
+		margin: 0 auto;
+		text-decoration: none;	
+	}
+
+	.tpp-wyr-text p {
+	    text-align: justify;
+		padding: 0 15px;
+	}
+
+	.tpp-wyr-p {
+	    text-align: justify;
+		padding: 0 15px;
+
+	}
+
+	.tpp-weekly {
+		background-image: url(https://www.thepurseclub.com/wp-content/uploads/2018/01/week-back.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-color: transparent;
+	}
+
+	.tpp-weekly img {
+		margin: 0 auto;
+		display: block;
+		padding: 0 15px 50px !important;
+	}
+
+	.tpp-hero h1 img  {
+		max-width: 70%
+	}
+
+	.tpp-hero h2 img  {
+		max-width: 70%
+	}
+
+	img.tpp-members-receive {
+		max-width: 90%
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.modal-dialog.upsell-modal.version-two {
+		font-size: 100%;
+	}
+	.upsell-modal.version-two .ups-colum-right, .upsell-modal.version-two .ups-colum-right-bt {
+		padding: 0 27px;
+	}
+	.upsell-modal.version-two .popup-ups-container{
+		padding: 37px 30px 30px 31px;
+	}
+	.upsell-modal.version-two .ups-colum-right-bt div.yes-upsell a {
+		font-size: 218% !important;
+		}
+	.upsell-modal.version-two .ups-colum-right {
+		margin-top: 366px;
+	}
+	.select-your-plan-modal .psypnewd-month-title h2 {
+		background-color: rgba(255, 255, 255, 0) !important;
+	}
+	.select-your-plan-modal .psypnewd-month-title h2 span{
+		padding: 0 5px !important;
+	}
+	.select-your-plan-modal .psypnewd-value {
+		font-size: 330% !important;
+	}
+	.icons-ninth-section {
+    min-height: 250px;
+	}
+	.icon-sfs img {
+		padding-left: 0;
+		float: left;
+	} 
+	.icon-ffs img {
+		float: left;
+	}
+	.hiw-button {
+    	padding: 0 27%;
+    	padding-bottom: 30px;
+	}
+	.fb-down {
+		padding-bottom: 20px;
+	}
+	section.features .features-left {
+	    padding-left: 15px;
+	}
+	section.features .features-right {
+	    padding-right: 15px;
+	}
+	section.features .vertical-line-50 {
+	    bottom: 20px;
+	}
+	section.features h5 {
+	  font-size: 118%;
+	}
+	.receipt-third-text h2 {
+		font-size: 122%
+	}
+	.receipt-third-text sub {
+		font-size: 300%;
+	}
+	.hero-s-right p {
+		font-size: 115%;
+	}
+	.float-r {
+		float: right;
+		display: block;
+		margin: 0;
+	}
+	.align-r {
+		float: right;
+		margin-left: 20px;
+	}
+	.align-l {
+		float: left;
+		margin-right: 20px;
+	}
+	.presell-two-sidebar{
+		padding-top: 0px;
+	}
+	.presell-two-sidebar a {
+	    width: calc(50% - 10px);
+	    display: block;
+	    float: left;
+	}
+	.presell-two-sidebar a {
+	    width: calc(50% - 10px);
+	    display: block;
+	    float: left;
+	}
+	.presell-two-sidebar a:first-child {
+		margin-right: 20px;
+	}
+	.presell-two-sidebar a img{
+		display: block;
+		margin: auto;
+		float: none;
+	}
+	/*------------------------------------------ Presell four ----------------------------------------------*/
+	.presell-four-menu-1 ul {
+		min-height: 52px;
+	}
+}
+
+@media only screen and (min-width : 640px) {
+	.image-video-home-container {
+		margin: 0 auto;
+    	padding: 0px 38px;
+    	display: block;
+	}
+
+	.hero-text {
+		margin: 0 auto;
+    	display: block;
+    	width: 79%;
+	}
+
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger.hero-button-box {
+		padding: 0;
+		margin: 0 134px;
+	}
+
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+		margin: 0px 158px;
+	}
+
+	.hiw-button {
+    	padding: 0 31px;
+    	padding-bottom: 30px;
+	}
+
+	.features-box h5 {
+		width: 70%;
+	}
+
+	.upd-purse img {
+		width: calc(100% - 103px);
+	}
+
+	.upd-inside-purse {
+		padding-left: 48px;
+	}
+
+	.aboutus-header-p-mob p {
+		font-size: 70%;
+	}
+
+	.aboutus-page-header {
+        display: none;
+	}
+	
+	.faq-first-text h2 {
+		font-size: 230%;
+	}
+
+	.hero-s-right p {
+		font-size: 115%;
+	}
+
+	.tpc-page-header {
+		min-height: 280px;
+	}
+
+	.faq-page-header {
+		min-height: 280px;
+	}
+
+	.features-s h2 {
+		font-size: 300%;
+		margin-top: 20px;
+	}
+
+	.witpc-text-s p {
+		font-size: 145%;
+		margin-bottom: 10px;
+	}
+
+	.features-s p {
+		margin-bottom: 10px;
+	}
+
+	.features-s h4 {
+		margin-top: 10px;
+	}
+
+	.accordion-faq-text {
+		padding: 15px !important;
+	}
+
+	.hero-v {
+		min-height: 503px;
+	    width: 603px;
+	    margin-left: calc(100% - 603px);
+	    padding: 273px 100px 0;
+	}
+	/*----------------------------------------- pre sell four ----------------------------------------------*/
+	.presell-four-top-two img {
+	    float: left;
+	    margin-top: 15px;
+	    margin-right: 73px;
+	}
+
+	.presell-four-header-content h2 {
+		font-size: 303%;
+	}
+
+	.presell-four-subtitle ul li {
+		font-size: 163%;
+  		margin-right: 40px;
+	}
+
+	.presell-four-menu-1 ul {
+		min-height: 0;
+	}
+
+	.presell-four-header span {
+		text-align: right;
+	}
+
+	div#banner-offer .banner-container {
+		font-size: 240%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.navbar-nav li a {
+		font-size: 102%;
+	}
+
+	img.tpc-card-img {
+    	max-width: calc(100% - 132px) !important;
+	    display: inline-block !important;
+	}
+
+	select#limelight-card-type + span.select2 {
+	    margin-right: 10px !important;
+	    width: 110px !important;
+	}
+
+	.navigation-top {
+		position: static;
+	}
+
+	#main-navigation {
+		display: block;
+	}
+
+	.tpc-login-section {
+		display: block;
+	}
+
+	#main-navigation ul li a{
+		padding: 13px 7px;
+	}
+
+	section#whatisthepurse .vertical-line{
+		display: block;
+	}
+
+	.first-section .vc_column-inner  {
+		padding-right: 3px !important;
+	}
+
+	.what-box-section {
+		border-right: 1px solid #999999;
+	}
+
+	.underline-wbb {
+		border-bottom: none;
+	}
+
+	.witpc-mini-box {
+		border-right: 1px solid #999999;
+		padding: 13px 0;
+		min-height: 160px;
+	}
+
+	.how-it-mini-box {
+		border-right: 1px solid #999999;
+	}
+
+	.what-big-box .wpb_content_element {
+		margin-bottom: 35px;
+	}
+
+	.icons-inside-section {
+		padding: 0 4%;
+	}	
+
+	.icons-fn-section img {
+		float: left;
+	}
+
+	.icons-fn-section h5 {
+	    padding: 15px 0px 0px 82px;
+	    font-size: 112%;
+	    width: 92%;
+	    font-weight: 500;
+	    text-align: left;
+	}
+
+	.icons-ninth-section {
+		min-height: 290px;
+	}
+	
+	.icon-sfs img {
+		padding-left: 50px;
+	} 
+
+	.icons-sn-section {
+
+	}
+
+	.icons-sn-section img {
+		float: left;
+	}
+
+	.icons-sn-section h5 {
+	 	padding: 15px 0px 0px 82px;
+	    font-size: 112%;
+	    width: 92%;
+	    font-weight: 500;
+	    text-align: left;
+	}
+
+	.txt-icon h5 {
+		padding: 15px 0px 0px 135px;
+	}
+	/*new styles*/
+
+	.hitw-box {
+		border-right: 1px solid #999999;
+    	min-height: 311px;
+	}
+
+	.hero-button {
+		width: 68%;
+    	margin: 0 auto;
+	}
+
+	.hiw-button {
+		padding: 0 35%;
+		padding-bottom: 30px;
+	}
+
+	.what-is-the-purse-club p {
+		padding: 0 16px;
+	}
+
+	.witpc-text {
+		margin-bottom: 35px;
+	}
+
+	.hero-text {
+		padding-bottom: 51px;
+		margin: 0;
+   		width: 100%;
+    	display: block;
+	}
+
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+		font-size: 18px;
+		font-weight: 400;
+		padding: 10px 44px !important;
+		background-color: #c11111;
+		margin: 0;
+	}
+
+	.hiw-text {
+		padding-bottom: 28px;
+	}
+
+	.prior-collections {
+		min-height: 691px;
+	}
+
+	.hitw-big-box {
+		padding-bottom: 43px;
+	}
+
+	.features-box h5 {
+		width: 80%;
+	}
+	
+	.wdb-section {
+		padding-bottom: 249px;
+	}
+
+	.hero-button {
+	    padding-right: 80px;
+	    width: 80%;
+	}
+
+	.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger.hero-button-box {
+		text-align: center;
+    	font-size: 180%;
+    	padding: 13px 0!important;
+    	font-weight: 600;
+    	margin: 0;
+	}
+
+	.slider-text {
+		padding: 0 18% 0 11%;
+	}
+
+	.customers-love-us{
+	    background-color: #f3f3f3;
+    	padding-top: 35px;
+    	min-height: 547px;
+	}
+		
+    .witpc-mini-box-last {
+    	padding: 13px 0;
+    	min-height: 160px;
+	}
+	
+    .image-video-home-container {
+    	float: left;
+		padding-bottom: 32px;
+		display: block;
+    	width: 100%;
+	}
+	
+    .aboutus-header-p-mob {
+    	display: none;
+	}
+	
+    .aboutus-first-text {
+    	padding-bottom: 60px;
+	}
+	
+    .aboutus-second-text {
+		padding-bottom: 75px;
+	}
+
+	.tpc-page-header h1{
+		font-size: 360%;
+	}
+
+	.tpc-accordion-footer {
+		margin-top: 38px;
+	    border: 2px solid #c5c5c5;
+	    padding: 24px 0;
+	    margin-bottom: 45px;
+	    background-color: #f5f5f5;
+	}
+
+	.small-img {
+		display: none;
+	}
+
+	.big-img {
+		display: block;
+	}
+
+	.hero-s-right {
+		right: 21%;
+		width: 26%;
+	}
+
+	.hero-s-button {
+		padding-right: 0;
+	}
+
+	.features-s-box-item:first-child {
+		border-right: 1px solid #828282;
+		border-bottom: 1px solid #828282;
+	}
+
+	.features-s-box-item:nth-child(2) {
+		border-bottom: 1px solid #828282;
+	}
+
+	.features-s-box-item:nth-child(3) {
+		border-right: 1px solid #828282;
+		border-bottom: none;
+	}
+
+	.features-s-box {
+		margin-bottom: 20px;
+	}
+
+	.what-is-the-purse-club .witpc-box-s {
+		border-right: 1px solid #999999;
+	}
+
+	.what-is-the-purse-club .witpc-box-s-b-n {
+		border-right: none;
+	}
+
+	.cta-btn-home-s {
+		overflow: hidden;
+		clear: both;
+	}
+	
+	.cta-btn-home-s a {
+		width: 166px;
+		margin-top: 50px;
+		margin-bottom: 60px;
+	}
+
+	.item-witpc-mini-box-s {
+    	float: left;
+    	width: 100%;
+    	max-width: calc(33.33% - 33.33px);
+	}
+
+	.witpc-container .item-witpc-mini-box-s{
+		margin: 0 0 0 50px;
+	}
+
+	.witpc-container .item-witpc-mini-box-s:first-child {
+		margin: 0;
+	}
+
+	.witpc-container .vertical-line{
+		display: block;
+	}
+
+	.item-hiw-box-s {
+	  float: left;
+	  max-width: calc(33.33% - 66.66px);
+	  margin-left: 100px;
+	  padding-bottom: 0;
+	  background-size: 0;
+	}
+
+	.hiw-container .item-hiw-box-s:first-child {
+	    margin-left: 0;
+	}
+
+	.hiw-container .right-arrow-vertical{
+	  display: block;
+	}
+
+	.hiw-container {
+	  border-top: 1px solid #d8d8d8;
+	  border-bottom: 1px solid #d8d8d8;
+	  padding-top: 18px;
+	  padding-bottom: 36px;
+	}
+
+	.presell-two-header a img {
+	    margin-left: auto;
+	    margin-right: 10%;
+	}
+
+	.display-flex{
+		display: flex;
+	}
+
+	.presell-two-header .presell-two-date {
+	    margin-bottom: 0;
+	    text-align: right;
+	}
+
+	.presell-two-sidebar a {
+	    width: 100%;
+	}
+	/*----------------------------------------- pre sell four ----------------------------------------------*/
+	
+	.presell-four-subtitle ul li {
+		font-size: 165%;
+    	margin-right: 30px;
+	}
+
+	.presell-four-footer-dollarwatch img {		 
+		display: inline;
+		margin-bottom: 18px;
+	}
+
+	.presell-four-footer-advertorial img {
+	    float: right;
+	}
+
+	.presell-four-footer-advertorial p {
+		float: right;
+    	font-size: 80%;
+	}
+
+	.presell-four-footer-terms ul {
+		text-align: left;
+	}
+
+	.presell-four-footer-terms ul li {
+		display: block;
+		float: left;
+		margin-right: 24px;
+	}
+	/*------------------------------------------ Pre sell five -----------------------------------------------*/
+	.presell-five-float-r {
+    	float: right;
+    	display: block;
+	}
+
+	.presell-five-seemore-last {
+		margin-bottom: 0;
+	}
+
+	.presell-five-purse-img {
+		 margin-bottom: 30px;
+		 float: left;
+		 width: calc(33.33% - 2px);
+	}
+
+	.presell-five-purse-img + .presell-five-purse-img {
+  		margin-left: 3px;
+	}
+
+/*------------------------------------------ Pre sell six -----------------------------------------------*/
+	.presell-six-header {
+	  margin-bottom: 126px;
+	}
+
+	.presell-six-footer-dollarwatch {
+		border-bottom: 1px solid #fff;
+	}
+
+	.presell-six-footer-dollarwatch img {		 
+		display: inline;
+		margin-bottom: 18px;
+	}
+
+	.presell-six-footer-advertorial img {
+	    float: left;
+	}
+
+	.presell-six-footer-advertorial p {
+		float: left;
+    	font-size: 80%;
+	}
+
+	.presell-six-footer-terms ul {
+		text-align: left;
+	}
+
+	.presell-six-footer-terms ul li {
+		display: block;
+		float: left;
+		margin-right: 24px;
+	}
+
+	.presell-six-float-r {
+	  float: right;
+	  display: block;
+	}
+	img.tpc-card-img {
+       max-width: calc(100% - 132px) !important;
+        display: inline-block !important;
+	}
+	
+    select#limelight-card-type + span.select2 {
+        margin-right: 10px !important;
+        width: 110px !important;
+    }
+
+	/*------------------------------------------ Quiz -----------------------------------------------*/
+	.tpc-purse-selection span {
+		font-size: 145%;
+	}
+
+	.tpc-purse-type span {
+		font-size: 145%;
+	}
+
+	.quiz-color-text {
+		font-size: 145%;
+	}
+	.tpp-hiw-copy {
+		margin-bottom: 0;
+	}
+	.right-arrow-vertical.arrow-vertical-35 {
+		display: block;
+		bottom: -160px;
+	}
+	.right-arrow-vertical.arrow-vertical-65 {
+		display: block;
+		bottom: -160px;
+	}
+
+	/*-------------------------------- THE PERFECT PURSE HOME STYLES -----------------------------*/
+	.tpp-hero h1 img {
+		padding-top: 158px;
+	}
+
+	.tpp-btn-home-s {
+		text-align: center;
+		padding: 0;
+		clear: both;
+		max-width: 375px;
+		margin: auto;
+		margin-bottom: 5px;
+	}
+
+	.tpp-btn-home-s a {
+		font-size: 252%;
+		font-weight: 600;
+		letter-spacing: -2px;
+		color: #fff;
+		background-color: #cd3333;
+		padding: 19px;
+		width: calc(100% - 15px);
+		display: block;
+		max-width: 370px;
+		margin: 0 auto;
+		text-decoration: none;
+	}
+
+	.tpp-wyr-text p {
+		text-align: center;
+		padding: 0;
+	}
+
+	.tpp-wyr-p {
+		text-align: center;
+		padding: 0;
+	}
+
+	.tpp-weekly {
+		background-image: url(https://www.thepurseclub.com/wp-content/uploads/2018/01/vuitton-sec-red-purse-min-optim.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-color: transparent;
+	}
+
+	.tpp-weekly img {
+		margin: 0 auto;
+		display: block;
+		padding: 0 0 50px;
+	}
+
+	.tpp-hero h1 img  {
+		max-width: 100%
+	}
+
+	.tpp-hero h2 img  {
+		max-width: 100%
+	}
+
+	img.tpp-members-receive {
+		max-width: 100%
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.navbar-nav li a {
+		font-size: 114%;
+	}
+
+	.modal-dialog.upsell-modal.version-two {
+    	max-width: 900px;
+	}
+	.upsell-modal.version-two .popup-ups-container{
+		min-height: 600px;
+		padding: 9px 30px 30px 21px;
+		background-size: cover, 0;
+	}
+	.upsell-modal.version-two p.vuluePricie {
+		font-size: 430%;
+    	margin-bottom: 10px !important;
+	}
+	.upsell-modal.version-two .ups-colum-right-bt div.yes-upsell a {
+		font-size: 166% !important;
+		padding: 21px 10px !important;
+	}
+	.upsell-modal.version-two .ups-colum-right {
+		max-width: 390px;
+		padding: 0;
+	    margin-top: 154px;
+	}
+	.upsell-modal.version-two .ups-colum-right-bt div.yes-upsell {
+		padding-top: 11px;
+	}
+	.modal-dialog.upsell-modal.version-two {
+		font-size: 85%;
+	}
+	.modal-dialog.upsell-modal.version-two {
+		font-size: 100%;
+	}
+	.upsell-modal.version-two .ups-colum-right-bt {
+		max-width: 390px;
+		padding: 0;
+	}
+	.upsell-modal.version-two .ups-colum-right-bt div.no-upsell {
+		margin-top: 22px;
+	}
+	.upsell-modal.version-two .ups-colum-right-bt div.no-upsell a {
+		font-size: 140%;
+	}
+    section.popup-select-content .psypnewd-item-select + .psypnewd-item-select {
+        margin-left: 20px !important;
+	}
+	
+    section.popup-select-content .psypnewd-text-box {
+        min-height: 90px !important;
+	}
+	
+	#main-navigation ul li a{
+		padding: 13px 27px;
+	}
+
+	.l-first-section > .vc_column-inner > .wpb_wrapper {
+		max-width: 504px;
+		float: right;
+	}
+
+	.r-first-section > .vc_column-inner > .wpb_wrapper {
+		max-width: 504px;
+		float: left;
+	}
+
+	.hiw-button {
+    	padding: 0 39%;
+	}
+
+	.features-box h5 {
+		width: 81%;
+		margin-top: 25px;
+	}
+
+	.ups-container {
+		background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/10/white-background.jpg);
+	}
+
+	.ups-container {
+		padding-left: 0;
+	}
+
+	.upd-purse img {
+		width: calc(100% - 56px);
+	}
+
+	.upd-woman-border {
+		margin-right: 0;
+	}
+
+	.ups-container {
+		padding-left: 0;
+	}
+
+	.upd-item-container {
+	    padding-left: 0;
+	}
+
+	.ups-container {
+		padding-left: 0;
+	}
+
+	.upd-purse h2 {
+		font-size: 383%;
+	    font-weight: 700;
+	    width: 89%;
+	    padding-bottom: 8px;
+	}
+
+	.upd-purse img {
+		display: block;
+		margin: 0;
+	}
+
+	.upd-purse h2 {
+    	font-size: 3vw;
+	}
+
+	.upd-inside-purse {
+		padding-left: 0;
+	}
+
+	.aboutus-first-text h2 {
+		text-align: left;
+		font-size: 164%;
+	}
+	.aboutus-second-text h2 {
+		text-align: left;
+		font-size: 164%;
+	}
+	.underline-aboutus {
+		display: none;
+	}
+	
+	.receipt-big-section {
+		min-height: 403px;
+	}
+
+	.faq-accordion-footer {
+		width: 80%;
+    	margin: 0 auto;
+	}
+
+	.faq-info-section {
+		padding: 0px 169px;
+	}
+
+	.loginp-info-section {
+    	padding: 0px 169px !important;
+	}
+
+	.word-image {
+		float: right;
+		margin: -25px 0 0 0 !important;
+		display: block;
+	}
+
+	.word-image-responsive {
+		display: none;
+	}
+	
+	.middle-b{
+		display: block;
+	}
+
+	.middle-v{
+		margin: auto;
+	}
+
+	.presell-five-top-icons {
+	    margin: 0;
+	    position: absolute;
+	    right: 0px;
+	    top: 28px;
+	}
+	.right-arrow-vertical.arrow-vertical-35 {
+		bottom: -250px;
+	}
+	.right-arrow-vertical.arrow-vertical-65 {
+		bottom: -250px;
+	}
+	.tpp-carousel-container ul li {
+		width: calc(50% - 10px);
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 0px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.left-ad {
+		text-align: left;
+	}
+
+	.last-ad {
+		text-align: right;
+	}
+
+	#main-navigation ul li a{
+		padding: 13px 34px;
+	}
+
+	.icons-inside-section {
+		padding: 0 12%;
+	}
+
+	.hiw-button {
+    	padding: 0 41%;
+	}
+
+	.features-box {
+		padding-top: 40px;
+	}
+
+	.fb-down {
+		padding-top: 0;
+		padding-bottom: 33px;
+		border: none;
+	}
+	
+	section.features .vertical-line-50 {
+	    top: 40px;
+	    bottom: 33px;
+	}
+
+	.features-box p {
+		padding-top: 10px;
+	}
+
+	.features-box h5 {
+		width: 84%;
+		padding-top: 10px;
+	}
+
+	.features-right {
+		padding-left: 80px;
+	}
+
+	.upd-woman-border {
+		margin-right: 53px;
+	}
+
+	.upd-inside-purse {
+		padding-left: 0;
+	}
+
+	.upd-purse h2 {
+   		font-size: 4vw;
+	}
+
+	.cs-icons-box {
+		text-align: center;
+	}
+
+	.cs-contact-sec img {
+		float: left;
+		margin-left: 0;
+		padding-right: 10px;
+	}
+	
+	.cs-contact-sec p {
+		font-size: 135%;
+	}
+
+	.hero-s-button a {
+		width: 80%!important;
+		padding: 5px!important;
+		margin-top: 25px!important;
+		font-size: 150%!important;
+	}
+
+	.presell-one-header a{
+		margin: 15px 0 15px 199px;
+		display: block;
+	}
+
+	.presell-one-logo {
+		margin: 0;
+	}
+
+	.presell-one-top-header h1 {
+		text-align: right;
+		margin-right: 39px;
+	}
+	/*----------------------------------------- pre sell four ----------------------------------------------*/
+	
+	.presell-four-subtitle ul li {
+		font-size: 163%;
+  		margin-right: 40px;
+	}
+}
+
+
+
+@media screen and (max-width: 640px) {
+	.aboutus-page-header {
+		display: none;
+	}
+
+	.hero-v, .hero-s, .middle-s, .middle-v{
+		background-image: none !important;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	.hero-v p, .hero-s p, .hero-container p, .middle-container p{
+		color: #333;
+	}
+
+	.hero-img, .middle-img{
+		display: block;
+	    margin-bottom: 53px;
+	}
+
+	.hero-container, .middle-container{
+		padding: 0 15px;
+	}
+
+	.hero-button.hero-s-button {
+	    padding-top: 9px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.presell-three-top-header h1 {
+		text-align: center;
+	}
+
+	.presell-three-top-header p {
+		text-align: center;
+	}
+
+	.float-r {
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+
+	.presell-three-soc-resp {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.presell-three-testimonial-resp {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.presell-three-comment-resp {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.presell-five-comment-resp {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.presell-three-main-container {
+		border: none;
+	}
+
+	.presell-six-comment-resp {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.presell-six-social-footer {
+	  display: block;
+	  margin: 0 auto;
+	}
+	.sab-social-footer-img {
+	  display: block;
+	  margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.psypnewd-item-select {
+		float: none !important;
+		min-width: 100% !important;
+	}
+
+	.psypnewd-first-item-select {
+		margin-left: 0 !important;
+	}
+	.psypnewd-item-container .psypnewd-item-select + .psypnewd-item-select {
+		margin-left: 0 !important;
+	}
+	.psypnewd-text-box {
+		text-align: center;
+	}
+	.psypnewd-badge {
+		display: none;
+	}
+	.psypnewd-wait-text {
+		display: block;
+	}
+	.psypnewd-special-text {
+		display: block;
+	}
+	.presell-five-bags-resp {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+}
+/*------------------------------------*\
+  5 COLUMNS
+\*------------------------------------*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 26px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+    .contactus-modal-body textarea {
+	    height: 186px;
+	}
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/*------------------------------------*\
+  7 COLUMNS
+\*------------------------------------*/
+
+.col-xs-7ths,
+.col-sm-7ths,
+.col-md-7ths,
+.col-lg-7ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-7ths {
+    width: 14.2%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-7ths {
+		width: 14.2%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+    .col-md-7ths {
+		width: 14.2%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+    .col-lg-7ths {
+		width: 14.2%;
+		float: left;
+	}
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}

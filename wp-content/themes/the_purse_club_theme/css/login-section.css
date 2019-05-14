@@ -1,0 +1,183 @@
+.tpc-logged-hidden {
+    display: block !important;
+}
+li.tpc-logged-hidden {
+    display: inline-block !important;
+}
+.tpc-logged-visible {
+    display: none !important;
+}
+.logged-in .tpc-logged-hidden, .logged-in li.tpc-logged-hidden  {
+    display: none !important;
+}
+.logged-in .tpc-logged-visible {
+    display: block !important;
+}
+.logged-in li.tpc-logged-visible {
+    display: inline-block !important;
+}
+.tpc-boder-none a {
+    border: none !important;
+}
+
+.modal-dialog {
+    max-width: 430px;
+}
+.modal-content {
+    border-radius: 0;
+    background: #f1f0f0;
+    border: 2px solid #000;
+}
+.modal-body {
+    padding: 15px 35px;
+}
+.modal-header {
+    background: #000;
+    padding: 30px 15px 10px;
+}
+.modal-title {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 100%;
+}
+.modal-title a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.modal-title a:hover {
+    text-decoration: none;
+}
+.modal-logo {
+    padding-top: 137px;
+    margin-bottom: 10px;
+}
+.modal-logo img {
+    margin: 0 auto;
+    display: block;
+    width: 66%;
+}
+.modal-body h3 {
+    color: #d22c27;
+    font-size: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 43px 0px;
+}
+.login-container {
+    padding-bottom: 155px;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    margin-bottom: 5px;
+    background: #efeeee;
+}
+.login-container .email-container, .login-container .password-container {
+    margin-bottom: 12px;
+}
+.tpc-validation {
+    color: #d80000;
+}
+.login-container button {
+    margin: 0 auto;
+    display: block;
+}
+.login-container h5 {
+    text-align: center;
+}
+.login-container a {
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.login-container a:hover {
+    text-decoration: none;
+}
+.password-container {
+    margin-bottom: 20px;
+}
+.submit-container button, .submit-container input{
+    background:#d80000;
+    color: #fff;
+    padding: 4px 30px;
+    border: none;
+    letter-spacing: 1px;
+    width: 108px;
+    margin: 0 auto;
+    display: block;
+}
+.submit-container {
+    margin-bottom: 40px;
+}
+.login-container h5 {
+    margin-bottom: 13px;
+}
+.submit-container a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.submit-container a:hover {
+    text-decoration: none;
+}
+/* MEMBERSHIP - HINT CONTAINER   */
+.hint-container {
+    position: relative;
+}
+.tpc-details {
+    position: relative;
+    cursor: pointer;
+}
+.tpc-details p {
+    text-align: center;
+    font-size: 183%;
+    margin-bottom: 16px;
+}
+.tpc-details .hover-popup {
+    position: absolute;
+    width: 100%;
+    display: none;
+    bottom: 57px;
+    z-index: 9999999999;
+    background: #f4eae8;
+    border: 2px solid #606060;
+    padding: 45px 30px 0;
+    font-size: 113%;
+}
+
+.tpc-details .hover-popup p {
+    text-align: left;
+    font-size: 100%;
+}
+.hover-popup img {
+    position: relative;
+    bottom: -27px;
+    display: block;
+    margin: 0 auto;
+}
+.hover-popup-content ul {
+    margin-bottom: 50px;
+}
+.hover-popup-content h5 {
+    font-weight: bold;
+    font-size: 110%;
+    text-align: center;
+}
+.hover-popup-content h5 span {
+    margin-top: 15px;
+    display: block;
+}
+.tpc-details .hover-popup.sec-mem-col {
+    background: #f1e1d7;
+}
+
+/******************* Billing Information *******************/
+
+.form-row.place-order input#place_order, a.upsell-submit, #validation-box-submit{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    background-color: #229e66 !important;
+}

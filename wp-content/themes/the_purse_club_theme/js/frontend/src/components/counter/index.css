@@ -1,0 +1,39 @@
+.shop-counter-container {
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 50px;
+    margin-top: -35px;
+}
+
+.timer_wrap {
+    background: #000;
+    margin-top: 35px;
+    padding-left: 33px;
+    font-family: BebasNeue, "Trebuchet MS", Arial, sans-serif;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.timer-row-left, .timer-row-right {
+    position: relative;
+    top: -2px;
+    color: #fff;
+    font-family: FuturaPT-Medium, "Trebuchet MS", Arial, sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
+.timer {
+    background: #fff;
+    border: 3px solid #000;
+    padding: 0 20px;
+    font-size: 210%;
+    color: #000;
+    position: relative;
+    letter-spacing: -1px;
+}

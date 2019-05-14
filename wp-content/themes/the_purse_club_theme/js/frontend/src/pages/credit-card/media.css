@@ -1,0 +1,85 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .cc-order-button a {
+        width: 100%;
+    }
+}
+    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .cc-lock-text {
+        float: right;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+    span.cc-vip-text {
+        margin-left: 5px;
+    }
+
+    .cc-form-content {
+        margin-bottom: 17px;
+    }
+
+    .cc-watch-price {
+        margin-bottom: 0;
+    }
+
+    .cc-card-address {
+        margin-bottom: 0;
+        display: inline;
+    }
+
+    .cc-payment-required {
+        float: right !important;
+    }
+
+    .cc-payment img {
+        margin-bottom: 0;
+    }
+
+    .cc-button-sec {
+        margin: 0 0 0 30%;
+    }
+
+    .cc-order-button a {
+        width: 70%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+    
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

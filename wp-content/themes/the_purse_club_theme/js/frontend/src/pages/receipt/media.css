@@ -1,0 +1,57 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 640px) {
+    .receipt-banner-border p {
+        font-size: 390%;
+    }
+    .receipt-page-header {
+        background-size: contain;
+        background-position: right center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .receipt-banner-container {
+        background-color: transparent;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+    
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}

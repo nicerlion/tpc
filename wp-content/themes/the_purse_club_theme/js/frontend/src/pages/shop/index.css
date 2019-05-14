@@ -1,0 +1,87 @@
+.shop-header-container {
+    background: #f4f4f4;
+    text-align: center;
+}
+.shop-header-container h1 {
+    margin-top: 0;
+    font-size: 180%;
+    margin-bottom: 30px;
+}
+
+.shop-header-add {
+    background: #fff;
+    border: 3px solid #e5e5e5;
+    padding: 15px 30px;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+ 
+.shop-header-add p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.shop-header-add h2 {
+    color: #e23a76;
+    margin: 15px 0;
+    letter-spacing: -2px;
+    font-size: 216%;
+    font-weight: bold;
+}
+
+.shop-header-container h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #989898;
+    font-size: 130%;
+}
+
+.nav-pills>li>a {
+    background-color: #012851;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #f7f8f9;
+    border-bottom: none;
+}
+
+.nav-pills>li>a:hover {
+    color: #000;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #fff;
+    color: #000!important;
+    border-radius: 0;
+    border: 1px solid #f7f8f9;
+    border-bottom: none;
+}
+
+.shop-products ul {
+    background: #fff;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f7f8f9;
+}
+
+.tab-content {
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.shop-button {
+    color: #000;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 17px;
+    font-size: 110%;
+}
+
+.shop-wrapper {
+    min-height: 300px;
+}

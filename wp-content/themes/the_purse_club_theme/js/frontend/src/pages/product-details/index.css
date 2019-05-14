@@ -1,0 +1,213 @@
+.pd-info {
+    border-bottom: 1px solid #b7b7b7;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.pd-info h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 265%;
+}
+
+.pd-info p {
+    color: #7e7e7e;
+    font-size: 115%;
+    letter-spacing: 1px;
+}
+
+.pd-info .pd-price {
+    font-size: 150%;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    line-height: 20px;
+}
+
+.pd-info .pd-offer-price {
+    color: #e9719e;
+    font-size: 180%;
+    letter-spacing: 0;
+}
+
+.pd-info .pd-vip-offer {
+    margin-top: 15px;
+    color: #d21010;
+    font-size: 137%;
+    letter-spacing: 0;
+    font-style: italic;
+}
+
+.pd-info .nvme {
+    color: #7e7e7e;
+    font-size: 90%;
+    font-style: normal;
+}
+
+.pd-color p {
+    color: #7e7e7e;
+    font-size: 125%;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.pd-color-container img {
+    margin-right: 10px;
+}
+
+.pd-addtocart button{
+    background: #000;
+    padding: 15px 35px;
+    color: #fff;
+    font-size: 135%;
+    font-weight: bold;
+    margin: 35px 0 15px;
+    display: block;
+}
+
+.pd-addtocart button:hover {
+    background: #7e7e7e;
+}
+
+.pd-addtocart a {
+    display: block;
+    text-decoration: underline;
+    color: #7e7e7e;
+    cursor: pointer;
+}
+
+.pd-addtocart a:hover {
+    text-decoration: none;
+}
+
+.pd-description h3 {
+    color: #000;
+    letter-spacing: -1px;
+    margin: 40px 0 20px;
+}
+
+.pd-dimentions {
+    margin: 40px 0 20px;
+}
+
+#shopCarousel {
+    margin-bottom: 30px;
+}
+
+#shopCarousel .carousel-indicators {
+    position: relative;
+    display: block;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    margin: 0 auto;
+    bottom: -10px;
+    right: 0;
+    letter-spacing: -3px !important;
+    text-align: center;
+    
+}
+
+#shopCarousel .carousel-indicators li {
+    width: 69px!important;
+    height: 69px;
+    max-width: calc(25% - 6.75px);
+    text-indent: inherit;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    margin: 0 7px 7px 0;
+    border: none;
+    transition-duration: 0.3s;
+    display: inline-block!important;
+    text-align: left;
+}
+
+#shopCarousel .carousel-indicators .active {
+    opacity: 0.5;
+}
+
+#shopCarousel .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+#shopCarousel .carousel-control.right {
+    right: 0;
+    left: auto;
+}
+
+#shopCarousel .left {
+    background: url(assets/img/left-arrow.png) no-repeat center center;
+}
+
+#shopCarousel .right {
+    background: url(assets/img/right-arrow.png) no-repeat center center;
+}
+
+.pd-wrapper {
+    min-height: 300px;
+}
+
+.apdp-mini-dimension span {
+    margin-right: 10px;
+}
+
+.pd-container {
+    margin-bottom: 30px;
+}
+
+/***********  SHOP LINKS **********/
+.pd-links-container {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.pd-links-container .back-selection {
+    padding-left: 15px;
+    float: left;
+}
+
+.pd-links-container .go-checkout {
+    padding-right: 15px;
+    float: right;
+}
+
+.pd-links-container .back-selection a {
+    font-size: 88%;
+    font-family: lato;
+    font-weight: bolder;
+    padding-left: 12px;
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2018/03/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 6px;
+    color: #656565;
+    float: left;
+    text-transform: uppercase;
+}
+
+.pd-links-container .go-checkout a {
+    font-size: 88%;
+    font-family: lato;
+    font-weight: bolder;
+    padding-right: 12px;
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2018/03/right-arrow-pd.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 6px;
+    color: #656565;
+    float: right;
+    text-transform: uppercase;
+}

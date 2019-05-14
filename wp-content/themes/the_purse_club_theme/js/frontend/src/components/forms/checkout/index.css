@@ -1,0 +1,72 @@
+.sab-data label {
+    float: left;
+    text-align: right;
+    color: #333333;
+    font-size: 16px;
+    padding-right: 15px;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 6px;
+}
+
+.sab-info-data {
+    margin-bottom: 5px;
+}
+
+.sab-input {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.sab-data input {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    /* color: #555; */
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sab-data select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    /* color: #555; */
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sab-input.has-error {
+    color: #a00;
+}
+
+.sab-input.has-error input {
+    border: 1px solid #a00;
+}
+
+.sab-input.has-error input::-webkit-input-placeholder {
+    color: #a00;
+}
+
+.sab-input.has-error input:-moz-placeholder {
+    color: #a00;
+}
+
+.sab-input.has-error input:-ms-input-placeholder {
+    color: #a00;
+}
+
+.sab-input.has-error input::placeholder {
+    color: #a00;
+}

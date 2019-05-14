@@ -1,0 +1,115 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .as-close-button {
+        padding: 10px !important;
+    }
+
+    .apdp-add-button {
+        text-align: center
+    }
+    
+    .apdp-add-button button {
+        float: none;
+        padding: 10px 6px;
+        font-size: 134%;
+    }
+    .as-modal-body-second {
+        padding: 0 !important;
+    }
+
+    .apdp-color-section img {
+        padding: 10px 10px;
+    }
+
+    .apdp-dimension-section span {
+        display: block;
+    }
+}
+    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .as-product-image {
+        height: 202px;
+    }
+
+    .as-product-image img {
+        max-height: 202px;
+    }
+
+    .as-banner-hidden-up{
+        display: block;
+    }
+
+    .as-banner-hidden-down{
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 640px) {
+    .as-modal-box {
+        margin: 50px 60px;
+    }
+
+    .apdp-add-button button {
+        padding: 5px 27px;
+        font-size: 170%;
+    }
+
+    .as-modal-body-second {
+        padding: 15px 35px;
+    }
+
+    .apdp-color-section img {
+        padding: 3px 10px;
+    }
+
+    .apdp-dimension-section span {
+        display: inline-block;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .apdp-add-button button {
+        float: right;
+    }
+    
+    .selected-product-container {
+        height: 530px;
+    }
+
+    .selected-product-container img {
+        max-height: 335px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+    
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}

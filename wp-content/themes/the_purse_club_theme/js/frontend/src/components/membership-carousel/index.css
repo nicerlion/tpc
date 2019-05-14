@@ -1,0 +1,20 @@
+.tpc-membership-button {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tpc-membership-button button {
+    text-decoration: none;
+    font-size: 184%;
+    letter-spacing: 0px;
+    font-weight: 600;
+    padding: 16px;
+    background-color: #c11111;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    max-width: 301px;
+    margin: 0 auto;
+}

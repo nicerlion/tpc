@@ -1,0 +1,56 @@
+a#place_order, a.upsell-submit, #validation-box-submit {
+    text-align: center;
+    font-size: 130%;
+    padding: 10px !important;
+    color: #fff;
+    display: block;
+    width: 100%;
+    background-color: #c11111;
+    border-radius: 0;
+    text-decoration: none;
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+    font-weight: bold;
+    border: 0px !important;
+}
+
+a#place_order:hover, a.upsell-submit:hover {
+    background-color: #e01515;
+    color: #fff;
+    text-decoration: none;
+}
+
+div#yes-upsell a {
+    padding: 18px 44px !important;
+    text-transform: inherit;
+    font-size: 118%;
+    font-weight: normal;
+    border-radius: 6px !important;
+    float: none !important;
+    background-color: #bc191a;
+    width: auto !important;  
+    max-width: 100% !important;
+}
+
+div#yes-upsell {
+    margin-bottom: 16px;
+}
+
+div#no-upsell a {
+    padding: 0 !important;
+    line-height: normal;
+    font-size: 124%;
+    font-weight: normal;
+    text-transform: inherit;
+    background-color: transparent;
+    border: none !important;
+    color: #3c3032;
+    text-decoration: underline;
+    float: none !important;
+    width: 100% !important;
+    white-space: normal;
+}
+
+div#no-upsell a:hover {
+    text-decoration: none;
+}

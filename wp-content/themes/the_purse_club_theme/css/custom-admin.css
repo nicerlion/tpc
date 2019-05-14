@@ -1,0 +1,40 @@
+
+/***********************************************
+ General
+***********************************************/
+.wrap.tpc-titel div {
+    display: none;
+}
+
+/***********************************************
+ Theme Option
+***********************************************/
+.tpc-theme-option p.tpc-titel{
+    margin-bottom: 15px;
+    font-size: 160%;
+    color: #fff;
+    background: #0073aa;
+    padding: 10px;
+}
+.tpc-theme-option div.tpc-img {
+    padding: 30px;
+    clear: both;
+    width: auto;
+    background-size: cover;
+    width: 0;
+    border: 1px solid #ddd;
+    margin-left: 1px;
+}
+.tpc-theme-option .tpc-img-content {
+    clear: both;
+    float: none;
+    border-style: dashed;
+    border-color: #0073aa;
+    padding: 11px;
+    max-width: 472px;
+}
+.tpc-theme-option.tpc-content input, .tpc-content textarea{
+    width: 100%;
+    max-width: 500px;
+    min-height: 30px; 
+}

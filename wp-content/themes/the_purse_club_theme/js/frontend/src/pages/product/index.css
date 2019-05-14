@@ -1,0 +1,258 @@
+.apdp-main-container {
+    margin: 30px 0;
+}
+
+.apdp-product-title h2 {
+    font-size: 215%;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.apd-title-sub-text span {
+    margin-right: 10px;
+    font-size: 118%;
+}
+
+.apd-title-sub-text p {
+    font-size: 118%;
+}
+
+.apdp-add-button button {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-size: 170%;
+    text-decoration: none;
+    margin-bottom: 30px;
+    cursor: pointer!important;
+    padding: 5px 27px;
+    font-weight: 700;
+    float: right;
+}
+
+.apdp-color-section {
+    padding: 20px 0 20px;
+}
+
+.apdp-color-section p img {
+    width: calc(25% - 3.75px);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.apdp-color-section p img + img {
+    margin-left: 5px !important;
+}
+
+.apdp-color-section span {
+    font-weight: 700;
+    margin-right: 20px;
+    font-size: 115%;
+}
+
+.apdp-color-section img {
+    background-color: #000;
+    padding: 3px 10px;
+    margin: 2px;
+}
+
+.apdp-color-section p {
+    text-align: center;
+}
+
+.apdp-dimension-section {
+    display: inline-block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.apdp-dimension-section span {
+    font-weight: 700;
+    margin-right: 20px;
+    font-size: 115%;
+}
+
+.apdp-mini-dimension {
+    display: inline-block;
+}
+
+.apdp-mini-dimension span {
+    font-size: 90%;
+}
+
+.apdp-info-text {
+    margin-bottom: 30px;
+    clear: both;
+    font-size: 120%;
+    text-align: justify;
+}
+
+.apdp-favo-button {
+    text-align: left;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.apdp-favo-button a {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.apdp-corousel-inner img {
+    margin: 0 auto;
+    display: block;
+}
+
+.apd-corousel {
+    margin-bottom: 25px;
+    border: 1px solid #f0f0f0;
+}
+
+.apd-carousel-container {
+    padding: 10px;
+}
+
+.apd-carousel-title {
+    padding: 15px;
+}
+
+.apd-carousel-title h3 {
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.apd-bag-item img {
+    border: 1px solid #f0f0f0;
+}
+
+.apd-inside-box p {
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: 700;
+    cursor: default;
+}
+
+.apd-bag-item span {
+    display: block;
+    padding-bottom: 20px;
+    text-align: left;
+    cursor: default;
+}
+
+.apd-carousel-add {
+    text-decoration: underline;
+}
+
+.apd-flexi-arrow {
+    top: 37% !important;
+}
+
+#pickBagConfirm {
+    color: #000;
+    padding-left: 0!important;
+}
+
+#pickBagConfirm .modal-header {
+    background: #fff;
+    border: none;
+    padding: 30px;
+}
+#pickBagConfirm .modal-footer {
+    border: none;
+    padding: 25px;
+    clear: both;
+}
+
+#pickBagConfirm .modal-body {
+    padding: 25px;
+}
+
+#pickBagConfirm .modal-title {
+    color: #000;
+}
+
+#pickBagConfirm .modal-content {
+    background: #fff;
+}
+
+#pickBagConfirm .btn-secondary {
+    background: #f3f3f3;
+    color: #000;
+    border: 1px solid #aaa;
+    width: 100%;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+#pickBagConfirm .btn-primary {
+    background: #cf0000;
+    color: #fff;
+    border: 1px solid #cf0000;
+    width: 100%;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.pyb-modal-title {
+    margin-top: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.pyb-modal-color {
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.pyb-modal-text {
+    font-weight: bold;
+    color: #cf0000;
+}
+  
+.apdp-active {
+    border: 2px solid #f1c83d !important;
+}
+
+.apdp-hover img {
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.apdp-hover img:hover {
+    border: 2px solid #f1c83d;   
+}
+
+.apdp-add-button .btn:hover, .apdp-add-button .btn:active, .apdp-add-button .btn:focus {
+    text-decoration: none;
+    background-color: #cf0000;
+}
+
+p.back-selection a {
+    background-image: url(https://www.thepurseclub.com/wp-content/themes/the_purse_club_theme/img/slider-arrow-left.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    padding: 3px 19px;
+    color: #acacac;
+    font-size: 114%;
+    text-transform: uppercase;
+}
+.apdp-fixed-indicators .carousel-indicators li {
+    display: block !important;
+    width: 69px !important;
+    margin: 0 9px 9px 0;
+}

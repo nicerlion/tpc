@@ -1,0 +1,42 @@
+.thankp-first-box {
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.thankp-first-box p {
+    text-align: center;
+    font-size: 90%;
+}
+
+.thankp-second-box {
+    border: 1px solid #f3f3f3;
+}
+
+.thankp-second-box img {
+    margin: 0 auto;
+    display: block;
+}
+
+.thankp-third-box {
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.thankp-third-box p {
+    text-align: center;
+    font-size: 285%;
+    font-weight: 200 !important;
+    font-family: 'lato';
+}
+
+.thankp-out-box {
+    padding: 11px 0; 
+}
+
+.thankp-out-box p {
+    text-align: center;
+}
+
+.thankp-out-box a {
+    text-decoration: underline;
+}

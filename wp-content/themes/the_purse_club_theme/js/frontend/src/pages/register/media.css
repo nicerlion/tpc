@@ -1,0 +1,30 @@
+@media only screen and (min-width : 320px) {
+    .verisign {
+        float: none;
+        width: 62px;
+        margin: 0 auto;
+        display: block;
+    }
+    .login-header h2 {
+        padding: 0 20px 17px;
+    }
+
+    .login-privacy-terms {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .verisign {
+        float: right;
+        margin: 0;
+    }
+
+    .login-header h2 {
+        padding: 0 0 17px;
+    }
+
+    .login-privacy-terms {
+        text-align: left;
+    }
+}

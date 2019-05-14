@@ -1,0 +1,459 @@
+.cc-header {
+    color: #ffffff;
+}
+
+.cc-top {
+    background-color: #ffffff !important;
+    padding-top: 23px;
+}
+
+.cc-top h1 {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    font-size: 203%;
+    font-family: 'Avenir';
+    margin-bottom: 7px;
+}
+
+.cc-top p {
+    color: #000;
+    text-align: center;
+    font-size: 109%;
+    font-weight: 600;
+    margin-bottom: 26px;
+    font-family: 'Avenir';
+    text-transform: uppercase;
+}
+
+.cc-step-button {
+    text-align: center;
+}
+
+.cc-step-button a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 108%;
+    background-color: #c00;
+    padding: 5px 12px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 23px;
+}
+
+.cc-second-sec {
+    font-family: 'Avenir' !important;
+}
+
+.cc-col-content {
+    padding: 0;
+}
+
+.cc-order-box {
+    background-color: #f7f7f7;
+    padding: 26px 18px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 18px;
+}
+
+.cc-order-header-content {
+    padding: 12px 50px 13px 0px;
+    border-top: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.cc-order-header-content p {
+    font-size: 114%;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.cc-order-header-content span {
+    font-size: 114%;
+    font-weight: 700;
+    width: 100%;
+}
+
+.cc-shipping-address {
+    font-size: 107%;
+    margin: 0;
+    float: left!important;
+    font-weight: 700;
+}
+
+span.cc-vip-text {
+    font-size: 100%;
+    color: #d73e3e;
+    margin-left: 0;
+}
+
+.cc-watch-box {
+    border-bottom: 1px solid #acacac;
+    margin-bottom: 20px;
+}
+
+.cc-watch-box img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100px;
+    width: 100%;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #acacac;
+}
+
+.cc-watch-box span {
+    font-size: 115%;
+    font-weight: 500;
+    color: #999999;
+    font-family: 'Avenir';
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.cc-watch-price {
+    color: #cc0000 !important;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.to-price {
+    color: #cc0000 !important;
+}
+
+.cc-watch-text {
+    font-size: 115% !important;
+    margin: 0 0 20px 0!important;
+    font-weight: 700 !important;   
+}
+
+.cc-subtotal-box {
+    border-bottom: 1px solid #999999;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+}
+
+.cc-subtotal-box span {
+    float: right;
+    font-size: 115%;
+    font-weight: 600;
+}
+
+.cc-subtotal-text {
+    font-size: 107%;
+    margin: 0;
+    float: left !important;
+    font-weight: 700;
+}
+
+.cc-promo-text {
+    font-size: 107%;
+    margin: 0;
+    float: left !important;
+    font-weight: 700;
+    line-height: 22px;    
+}
+
+.cc-promo-box {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 16px;
+}
+
+.cc-promo-box span {
+    float: right;
+    font-size: 115%;
+    font-weight: 600;
+}
+
+.cc-promo-text-box {
+    padding-bottom: 28px;
+}
+
+.cc-promo-text-box-2 {
+    padding-bottom: 11px;
+}
+
+.cc-total-box span {
+    float: right;
+    font-size: 115%;
+    font-weight: 600;    
+}
+
+.cc-total-text-box {
+    padding-bottom: 28px;
+}
+
+.cc-total-text-box-2 {
+    padding-bottom: 11px;
+}
+
+.cc-total-text {
+    font-size: 107%;
+    margin: 0;
+    float: left!important;
+    font-weight: 700;
+    color: #cc0000;
+}
+
+.cc-total-text-box-2 span {
+    color: #cc0000 !important;  
+}
+
+.cc-card-info {
+    background-color: #f7f7f7;
+    padding: 26px 18px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+
+.cc-card-header-content {
+    padding: 9px 0 9px 0;
+    border-top: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.cc-card-address {
+    font-size: 107% !important;
+    margin: 0;
+    float: left !important;
+    font-weight: 700;
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+    display: block;
+}
+
+.cc-lock-text {
+    float: left;
+}
+
+.cc-lock-text img {
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+.cc-card-header-content span {
+    float: right;
+    font-size: 86%;
+    font-weight: 700;
+    margin-top: -4px;
+    line-height: 13px;
+}
+
+.cc-payment {
+    margin-bottom: 17px;
+}
+
+.cc-payment span {
+    margin-right: 26px;
+    font-weight: 500;
+}
+
+.cc-payment img {
+    margin-bottom: 10px;
+}
+
+.cc-payment-required {
+    float: left !important;
+    margin: 0 !important;
+}
+
+.cc-form-content {
+    padding-left: 0;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.cc-card-mini-box {
+    margin-bottom: 6px;
+}
+
+.cc-card-mini-box label {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 16px;
+    color: #333;
+    padding-top: 6px;
+    font-weight: 144;
+}
+
+.cc-card-form {
+    float: left;
+    width: 70%;
+}
+
+.cc-card-form input, .cc-card-form select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cc-cw-form {
+    float: left;
+    width: 70%;
+}
+
+.cc-cw-form input {
+    display: block;
+    width: 30%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cc-card-form-date {
+    float: left;
+    width: 70%;
+}
+
+.cc-card-form-date input {
+    width: 30%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.cc-check-box {
+    margin: 0 auto 20px;
+    text-align: center;
+    display: block;
+}
+
+.cc-check-box input {
+    margin-top: 2px;
+    margin-left: 0;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #333;
+    padding-top: 6px;
+}
+
+.cc-check-box label {
+    font-weight: 500;
+    max-width: 90%;
+}
+
+.cc-button-sec {
+    margin: 0;
+}
+
+.cc-order-button {
+    margin-bottom: 25px;
+}
+
+.cc-order-button a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 130%;
+    background-color: #c00;
+    padding: 14px 20px 11px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    width: 70%;
+    text-align: center;
+}
+.cc-order-button a:hover {
+    background-color: #e01515;
+    text-decoration: none;
+    color: #fff;
+}
+.cc-security-img img {
+    margin: 0 auto;
+    display: block;
+}
+
+.cc-how-content {
+    background-color: #f7f7f7;
+    padding: 26px 18px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+
+.cc-how-header-content {
+    padding: 10px 50px 10px 0;
+    border-top: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.cc-how-content p {
+    font-size: 117%;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.cc-how-shipping-address {
+    font-size: 115%;
+    margin: 0;
+    float: left !important;
+    font-weight: 700;
+}
+
+.cc-card-form.has-error {
+    color: #a00;
+}
+
+.cc-card-form.has-error input {
+    border: 1px solid #a00;
+}
+
+.cc-card-form.has-error input::-webkit-input-placeholder {
+    color: #a00;
+}
+
+.cc-card-form.has-error input:-moz-placeholder {
+    color: #a00;
+}
+
+.cc-card-form.has-error input:-ms-input-placeholder {
+    color: #a00;
+}
+
+.cc-card-form.has-error input::placeholder {
+    color: #a00;
+}
+
+.free-shipping {
+    color: #7ad03a;
+    font-weight: bold;
+}
+
+.check-link-terms {
+    text-decoration: underline;
+}
+
+.check-link-terms:hover {
+    text-decoration: none;
+}

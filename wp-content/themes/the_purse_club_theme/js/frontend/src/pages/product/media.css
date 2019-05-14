@@ -1,0 +1,106 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .apdp-big-container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .apdp-add-button {
+        text-align: center
+    }
+    
+    .apdp-add-button button {
+        float: none;
+        padding: 10px 6px;
+        font-size: 134%;
+        width: 100%;
+    }
+    .as-modal-body-second {
+        padding: 0 !important;
+    }
+
+    .apdp-color-section img {
+        padding: 10px 10px;
+    }
+
+    .apdp-dimension-section span {
+        display: inline-block;
+    }
+
+    .mb-image {
+        margin-bottom: 25px;
+    }
+
+    .mb-text {
+        margin-bottom: 25px;
+    }
+
+    #pickBagConfirm .btn-primary {
+        margin-bottom: 25px;
+    }
+
+    #pickBagConfirm .modal-footer {
+        padding-top: 0;
+    }
+}
+    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 640px) {
+    .apdp-add-button button {
+        padding: 5px 27px;
+        font-size: 170%;
+    }
+
+    .as-modal-body-second {
+        padding: 15px 35px;
+    }
+
+    .apdp-color-section img {
+        padding: 3px 10px;
+    }
+
+    .apdp-big-container {
+        margin: 10px;
+        padding: 25px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .apdp-add-button button {
+        float: left;
+    }
+    .mb-image {
+        margin-bottom: 0;
+    }
+
+    .mb-text {
+        margin-bottom: 0;
+    }
+
+    #pickBagConfirm .btn-primary {
+        margin-bottom: 0;
+    }
+
+    #pickBagConfirm .modal-footer {
+        padding-top: 25px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .apdp-big-container {
+        margin: 10px;
+        padding: 25px;
+    }
+}

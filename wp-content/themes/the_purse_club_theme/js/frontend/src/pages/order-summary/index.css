@@ -1,0 +1,363 @@
+.os-container-vip {
+    padding: 20px 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.os-header {
+    padding: 30px 0 18px;
+}
+
+.os-header a {
+    font-size: 88%;
+    font-family: lato;
+    font-weight: bolder;
+    padding-left: 12px;
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2018/03/arrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6px;
+    color: #656565;
+}
+
+.os-header h1 {
+    margin-top: 26px;
+    font-size: 182%;
+    font-family: lato;
+}
+
+.os-body {
+    font-family: lato;
+    padding-bottom: 60px;
+}
+
+.os-checkbox-vip {
+    padding-top: 17px;
+    margin-right: 20px;
+}
+
+.os-titel-vip {
+    font-size: 107%;
+    font-weight: bolder;
+}
+
+.os-container-vip div {
+    float: left;
+    font-size: 81%;
+}
+
+.os-text-vip {
+    padding-top: 20px;
+    padding-left: 14px;
+    max-width: calc(100% - 115px);
+    font-family: lato;
+    font-weight: bold;
+}
+
+.os-product-img img{
+    border: 1px solid #878787;
+    margin: 0 auto;
+    max-height: 200px;
+    display: block;
+}
+
+.os-order-header h2 {
+    font-size: 130%;
+    margin: 0;
+}
+
+.os-order-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.os-container-order {
+    padding: 0;
+}
+
+.os-order-body {
+    padding: 6px 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.os-order-item {
+    padding: 0 0 6px;
+}
+
+.os-order-info {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.os-red {
+    color: #d42324;
+}
+
+.os-order-info p + p {
+    margin-top: 5px;
+}
+
+.os-container-order p {
+    font-size: 86%;
+    font-weight: bold;
+}
+
+.os-order-quantity p{
+    text-align: center;
+}
+
+.os-order-prices{
+    padding-right: 0;
+}
+
+.os-order-prices p{
+    text-align: right;
+}
+
+.os-order-footer {
+    padding: 30px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.os-order-footer-item p {
+    float: left;
+    width: 50%;
+}
+
+.os-order-footer-item p+p {
+    padding-left: 20px;
+    text-align: right;
+}
+
+.os-order-footer .os-order-footer-item + .os-order-footer-item {
+    margin-top: 5px;
+}
+
+.os-checkout button {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 107%;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    padding: 20px;
+    width: 100%;
+    max-width: 305px;
+}
+
+.os-checkout button:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.os-body .os-checkout {
+    padding: 20px 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.os-clear {
+    clear: both;
+    display: block;
+    float: none !important;
+}
+
+.os-body {
+    font-family: lato;
+    padding-bottom: 30px;
+}
+
+.os-vip-membership {
+    padding: 60px 15px 0;
+    font-family: lato;
+    color: #565656;
+    font-size: 86%;
+}
+
+.os-vip-membership p {
+    margin-bottom: 30px;
+}
+
+.os-vip-membership p:last-child{
+    margin-bottom: 20px;
+}
+
+.gift-card-header button {
+    font-size: 86%;
+    font-weight: normal !important;
+    font-family: lato;
+    padding: 13px 0 24px;
+    border-top: none;
+    border-bottom: 1px solid #c3c3c3 !important;
+    background-color: transparent !important;
+    position: relative;
+    background-image: none;
+}
+
+.gift-card-accordion button:after {
+    content: " - ";
+    position: absolute;
+    left: calc(100% - 30px);
+    font-size: 120%;
+    margin-top: -3px;
+    font-family: monospace;
+}
+
+.gift-card-accordion button.collapsed:after {
+    content: " + ";
+}
+
+.os-container-accordion {
+    padding: 0 15px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.gift-card-header h5 {
+    margin: 0;
+}
+
+.os-container-accordion #accordion {
+    margin-bottom: 0;
+}
+
+.gift-card-body {
+    padding: 15px 0 0;
+}
+
+.gift-card-body button {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    font-weight: 700;
+    letter-spacing: .7px;
+    width: 200px;
+    max-width: 100%;
+    font-size: 90%;
+    font-family: lato;
+    padding: 10px 10px;
+}
+
+.gift-card-body button:hover {
+    background: #ccc;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gift-card-body input {
+    padding: 4px 10px;
+    margin-right: 10px;
+    border: 1px solid #c3c3c3;
+    width: 200px;
+    max-width: calc(100% - 89px);
+    border-radius: 0;
+}
+
+.gift-card-body input:focus {
+    border: 1px solid #04A4CC;
+}
+
+.os-button button {
+    float: left;
+    color: #d42324;
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    padding: 0;
+    font-size: 86%;
+    border: none;
+    font-weight: 700;
+}
+
+.os-button {
+    margin-top: 5px;
+}
+
+.os-button #button-remove {
+    padding-right: 3px;
+}
+
+.os-container{
+    padding: 0;
+}
+
+.os-order-warning {
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    font-weight: normal;
+}
+
+span.os-warning {
+    padding: 2px 7px;
+    background-color: #d52325;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+    font-size: 100%;
+    margin-right: 5px;
+}
+
+.os-right-header button {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 90%;
+    font-weight: 700;
+    letter-spacing: .7px;
+    padding: 12px 10px;
+    width: 170px;
+    max-width: 100%;
+    margin-right: 0;
+}
+
+.os-header .os-checkout {
+    padding-top: 40px;
+    display: none;
+}
+
+.os-order-body .os-order-item + .os-order-item {
+    border-top: 1px solid;
+    padding-top: 15px;
+}
+
+.os-order-data {
+    padding-left: 0;
+}
+
+.summary-wrapper {
+    min-height: 300px;
+}
+
+.gift-card-body .cc-order-box, .gift-card-body .cc-col-content {
+    float: none !important;
+    display: block;
+    clear: both;
+}
+
+.gift-card-body .cc-card-form {
+    width: 100%;
+}
+
+.gift-card-accordion .cc-order-box {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.gift-card-accordion .cc-order-header-content, .gift-card-accordion .cc-card-form label {
+    display: none;
+}

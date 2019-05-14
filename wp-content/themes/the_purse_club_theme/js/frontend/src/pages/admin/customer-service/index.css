@@ -1,0 +1,94 @@
+.customer-service-main-box {
+    width: 100%;
+    padding: 0;
+}
+
+.cs-contact-first {
+	padding-right: 0;
+}
+
+.cs-contact-sec {
+	border: 1px solid;
+	padding-top: 40px;
+	padding-bottom: 113px;
+	margin-bottom: 40px;
+}
+
+.cs-icons-box {
+	width: 100%;
+    margin: 0 auto;
+}
+
+.cs-contact-sec h2 {
+	text-align: center;
+	font-size: 357%;
+    font-weight: 700;
+    margin-top: 42px;
+}
+
+.underline-customer {
+	width: 48%;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-bottom: 31px;
+}
+
+.cs-contact-sec p {
+	font-size: 135%;
+    font-weight: 500;
+}
+
+.cs-contact-second {
+	padding-left: 0;
+}
+
+.cs-contact-second-sec {
+	background-color: #ebebeb;
+	border: 1px solid;
+	padding-top: 40px;
+	margin-bottom: 40px;
+} 
+
+.cs-contact-second-sec img {
+    margin-left: 5px;
+}
+
+.cs-contact-second-sec h3 {
+	text-align: center;
+	font-size: 184%;
+	margin-bottom: 0;
+	margin-top: 35px;
+	font-weight: 300;
+}
+
+.cs-contact-second-sec h2 {
+	text-align: center;
+	font-size: 290%;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.underline-customer-second {
+	width: 37%;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+.cs-social-box {
+	text-align: center;
+}
+
+.cs-icons-box.clearfix ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.cs-icons-box.clearfix li {
+	float: none;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}

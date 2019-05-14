@@ -1,0 +1,36 @@
+@media only screen and (min-width : 320px) {
+    .timer_wrap {
+        padding: 0px 20px;
+    }
+    .timer-row-left, .timer-row-right {
+        display: block;
+        text-align: center;
+        top: 0;
+    }
+    .timer {
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+        top: 0;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .timer_wrap {
+        padding-left: 33px;
+    }
+    .timer-row-left, .timer-row-right {
+        display: inline;
+        text-align: unset;
+        top: -4px;
+    }
+    .timer {
+        background: #fff;
+        border: 3px solid #000;
+        padding: 0 20px;
+        color: #000;
+        text-align: unset;
+        display: inline;
+        top: 3px;
+    }
+}

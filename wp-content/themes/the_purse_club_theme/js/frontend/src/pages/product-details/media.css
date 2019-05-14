@@ -1,0 +1,53 @@
+@media only screen and (min-width : 320px) {
+    .pd-addtocart button {
+        margin: 35px auto 15px;
+    }
+
+    .pd-color-container {
+        text-align: center;
+    }
+
+    .pd-color p {
+        text-align: center;
+    }
+
+    .pd-info h1 {
+        margin-top: 20px;
+    }
+
+    .pd-info .pd-vip-offer {
+        padding: 10px 20px;
+        background: #f0f0f2;
+    }
+
+    .pd-addtocart a {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width : 992px) { 
+    .pd-addtocart button {
+        margin: 35px 0 15px;
+    }
+
+    .pd-color-container {
+        text-align: left;
+    }
+
+    .pd-color p {
+        text-align: left;
+    }
+
+    .pd-info h1 {
+        margin-top: 0;
+    }
+
+    .pd-info .pd-vip-offer {
+        padding: 0;
+        background: #fff;
+    }
+
+    .pd-addtocart a {
+        text-align: left;
+    }
+}

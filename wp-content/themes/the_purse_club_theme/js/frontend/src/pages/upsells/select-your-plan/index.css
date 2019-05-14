@@ -1,0 +1,316 @@
+.psypnewd-page-header {
+    min-height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.psypnewd-header-img {
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+
+.psypnewd-page-header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 240%;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.psypnewd-header-p {
+    border-top: none;
+    margin: 0 auto;
+    max-width: 714px;
+    padding-top: 0;
+}
+
+.psypnewd-header-p p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.psypnewd-first-item-select {
+    margin-left: 15px;
+}
+
+.item-select-img {
+    position: absolute;
+    top: -24px;
+    right: -30px;
+    max-width: 29%;
+}
+
+.psypnewd-popup-main-box {
+    padding: 40px 50px 15px!important;
+}
+
+.psypnewd-page-select-your-plan {
+    padding-top: 94px;
+}
+
+.psypnewd-page-select-your-plan .container-fluid {
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/10/white-background.jpg);
+    background-color: #f3eae7;
+    background-repeat-x: no-repeat;
+    background-size: 18.3%;
+    padding-top: 30px;
+}
+
+.psypnewd-woman-border img {
+    border: none;
+    width: 100%;
+}
+
+.psypnewd-woman-border .psypnewd-woman-img {
+    max-width: 343px;
+    position: relative;
+    border: 1px solid;
+    width: calc(100% - 15px);
+}
+
+.psypnewd-woman-img .psypnewd-woman-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 98% 14% 15px 8%;
+    color: #fff;
+}
+
+.psypnewd-woman-container h2 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 300%;
+    text-align: center;
+}
+
+.psypnewd-woman-container hr {
+    margin: 8px auto 34px auto;
+    border-top: 2px solid #fff;
+    width: 100px;
+}
+
+.psypnewd-woman-container p {
+    font-size: 121%;
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+
+.psypnewd-padding-horizon{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.psypnewd-center-padding {
+    text-align: center;
+    padding: 0 10%;
+}
+
+.psypnewd-woman-border {
+    margin-bottom: 30px;
+}
+
+.psypnewd-page-select-your-plan-message {
+    padding: 94px 0;
+}
+
+.psypnewd-page-select-your-plan-message .container {
+    min-height: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.psypnewd-vertical-center {
+    display: block;
+    margin: auto;
+}
+
+.psypnewd-page-select-your-plan-message a {
+    text-decoration: underline;
+}
+
+.psypnewd-page-select-your-plan-message a:hover {
+    text-decoration: none;
+}
+
+.psypnewd-page-select-your-plan .container-fluid {
+    background-image: none;
+    background-color: transparent;
+    padding-top: 0;
+}
+
+.psypnewd-item-select {
+    box-shadow: none;
+    border: 1px solid #cdcdcd;
+    transition-duration: 0.2s;
+    padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+    margin-top: 40px;
+}
+
+.psypnewd-item-select .inside-box-psypnewd {
+    border: none;
+    padding: 1px 15px;
+    background: #fff;
+    margin: 0 15px;
+}
+
+.inside-box-psypnewd h3 { 
+    text-align: center;
+    font-size: 286%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inside-box-psypnewd img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 38px;
+}
+
+.month-title-syp {
+    background-color: transparent;
+    margin: 0;
+    padding: 20px 15px;
+}
+
+.month-title-syp h2 {
+    font-size: 170%;
+}
+
+.pice-detail{
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 0px;
+    margin-top: 17px;
+}
+
+.psypnewd-item-select .psypnewd-black-button a {
+    font-size: 116%;
+    font-weight: 600;
+    padding: 9px;
+    width: 100%;
+    max-width: 190px;
+    display: block;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #b62022;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: -35px;
+}
+
+.psypnewd-item-select .psypnewd-black-button {
+    margin: 0px;
+    padding: 16px 0;
+}
+
+.psypnewd-price-info span.woocommerce-Price-amount.amount + sub {
+    display: none;
+}
+
+.psypnewd-first-text  {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.psypnewd-wait-text {
+    font-size: 195%;
+    font-weight: bold;
+    color: red;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
+.psypnewd-special-text {
+    font-size: 195%;
+    text-decoration: underline;
+}
+
+.psypnewd-special-text:hover{
+    text-decoration: none;
+}
+
+.psypnewd-ask-text {
+    font-size: 195%;
+}
+
+.psypnewd-big-container {
+    background-size: 100% !important;
+    margin-bottom: 50px;
+}
+
+.psypnewd-mini-item {
+    margin: 30px;
+    border: 1px solid #000000;
+}
+
+.psypnewd-month-title {
+    width: 80%;
+    min-width: 228px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.psypnewd-month-title h2 {
+    margin-top: -13px;
+    background-color: #fff;
+    font-size: 170%;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.psypnewd-black-button {
+    text-align: center;
+}
+
+.psypnewd-text-box {
+    margin: 0 15px;
+    font-size: 85%;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.psypnewd-value {
+    margin: 0 15px;
+    text-align: center;
+    font-size: 330%;
+    font-weight: 700;
+    padding: 0;
+}
+
+.psypnewd-last-text {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.psypnewd-last-text {
+    margin: 30px;
+    text-align: center;
+}
+
+.psypnewd-last-text:hover {
+    text-decoration: none;
+}
+
+.psypnewd-badge {
+    position: absolute;
+    right: 0;
+}

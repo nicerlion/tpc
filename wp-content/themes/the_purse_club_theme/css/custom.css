@@ -1,0 +1,2241 @@
+/***********************************************
+CUSTOM STYLES
+***********************************************/
+
+
+/***********************************************
+HEADER
+***********************************************/
+.top-header {
+	background: #f7f6f6;
+	padding: 6px 0;
+	font-size: 95%;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+}
+.top-header ul {
+	margin: 0;
+	padding: 0;
+}
+.top-header ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.logo {
+	position: relative;
+    text-align: center;
+    display: block;
+    padding: 25px 0 21px;
+    margin: 0;
+}
+
+.tpc-login-section {
+	position: absolute;
+	top: 27px;
+	right: 16px;
+	width: 24%;
+}
+
+.tpc-login-section ul {
+	float: right;
+}
+
+.tpc-login-section ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.tpc-login-section ul li {
+    font-size: 93%;
+    color: #000;
+    text-transform: uppercase;
+}
+.tpc-login-section ul li:first-child {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+.tpc-login-section ul li:first-child a {
+	color: #de070f;
+}
+
+.tpc-login-section ul li:last-child a {
+	margin-left: 10px;
+	border: none;
+	color: #000;
+}
+
+.top-header a {
+	font-size: 95%;
+	font-weight: 600;
+	color: #8a8a8a;
+	text-transform: uppercase;
+}
+.tpc-mb {
+	width: 50%;
+	float: left;
+	font-weight: 600;
+}
+.tpc-log-section {
+	width: 50%;
+	float: left;
+}
+.tpc-log-section li a {
+	border-right: 2px solid #8a8a8a;
+	padding-right: 10px;
+	font-weight: 600;
+}
+
+.tpc-log-section li:last-child a {
+	border: none;
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.tpc-top-ads {
+	overflow: hidden;
+	background: #000;
+	padding: 12px 0 14px;
+	color: #ccc;
+	font-size: 98%;
+	font-weight: 600;
+	letter-spacing: 1px;
+    margin-bottom: 2px;
+    margin: 0;
+}
+
+.tpc-top-ads .center-ad {
+	text-align: center;
+}
+
+/***********************************************
+NAVIGATION
+***********************************************/
+#main-navigation {
+	margin-bottom: 24px;
+}
+#main-navigation ul {
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#main-navigation ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+#main-navigation ul li:last-child {
+	margin-right: 0;
+}
+#main-navigation ul li a {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 100%;
+	letter-spacing: 1px;
+	padding: 13px 34px;
+	border-right: 1px solid #000;
+	text-decoration: none;
+}
+
+#main-navigation ul li a:hover {
+	text-decoration: underline;
+}
+
+#main-navigation ul li:last-child a {
+	border-right: none;
+	padding-right: 0;
+}
+/***********************************************
+HOMEPAGE
+***********************************************/
+.slider-text {
+	color: #fff;
+    padding: 0 18% 0 11%;
+	text-align: center;
+	line-height: 22px;
+}
+.vc_row.wpb_row.vc_row-fluid.jl-first-section {
+	min-height: 468px !important;
+}
+
+.first-section {
+	padding: 16px 0 0 0;
+}
+
+
+.loius-vuitton-first-section {
+	padding-bottom: 12px;
+}
+
+button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+	    background-color: #c11111;
+	    font-size: 23px;
+}
+
+.img-first-section {
+	padding-top: 43px;
+	
+}
+
+.img-first-section.wpb_wrapper {
+	float: left;
+}
+
+.vc_btn3.vc_btn3-size-md {
+	padding: 18px 75px !important;
+}
+
+.what-second-section {
+	min-height: 410px;
+	padding-bottom: 30px;
+}
+
+.what-title-section {
+	
+}
+
+.what-title-section h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 300%;
+} 
+
+.what-title-section p {
+	text-align: center;
+	font-size: 145%;
+    font-weight: 500;
+
+} 
+
+.underline-title {
+	border: 1px solid #333333;
+	width: 296px !important;
+	margin: 0 auto;
+	margin-bottom: 10px;
+    
+}
+
+.vc_row.wpb_row.vc_row-fluid.what-big-box{
+	margin: 0 auto;
+    width: 79% !important;
+    padding: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+}
+
+.what-box-section {
+	
+}
+
+.what-box-section:last-child {
+    border: none !important;
+}
+
+.what-box-section h4 {
+	width: 94%;
+    text-align: center;
+    font-size: 132%;
+    font-weight: 600;
+    color: #ce9d0b;
+    padding-top: 17px;
+    margin-bottom: 0;
+}
+
+.what-box-section p {
+	text-align: center;
+	font-size: 113%;
+    font-weight: 500;
+}
+
+.underline-wbb {
+	border-bottom: 1px solid #999999;
+}
+
+.what-big-box .wpb_content_element {
+		margin-bottom: 0;
+}
+
+.vip-third-section {
+    min-height: 544px !important;
+}
+
+.vip-section h3 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 202%;
+	padding-top: 11px;
+}
+
+.vip-section h4 {
+	color: #cc9900;
+	text-align: center;
+}
+
+.vip-section p {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 14px;
+	font-weight: 200;
+    font-size: 119%;
+    padding: 0 17%;
+}
+
+.underline-vip {
+	border: 1px solid #ffffff;
+    width: 49%;
+    margin: 0 auto;
+    margin-bottom: 41px;
+}
+
+.vip-box {
+	padding-left: 3% !important;
+}
+
+.win-fourth-section {
+	min-height: 330px !important;
+}
+.vc_btn3-container.win-button.vc_btn3-center {
+	padding-top: 214px;
+}
+
+.win-button button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+	font-size: 18px;
+    font-weight: 400;
+    padding: 10px 53px !important;
+}
+
+.how-it-title-section {
+
+}
+.how-it-title-section h2 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 600;
+    margin-top: 9px;
+}
+
+.how-it-title-section p {
+	text-align: center;
+	font-size: 147%;
+}
+
+.how-it-big-box {
+	padding: 0 11%;
+	padding-bottom: 60px;
+
+}
+
+.how-it-big-box.wpb_single_image.wpb_content_element.vc_align_center {
+	margin-bottom: 25px;
+}
+
+.how-it-big-box h4 {
+	text-align: center;
+	font-size: 135%;
+    color: #cc9900;
+    font-weight: 700;
+}
+
+.how-it-big-box p {
+	text-align: center;
+	font-size: 116%;
+    line-height: 22px;
+    font-weight: 400;
+
+}
+
+.how-it-big-box a{
+	font-weight: bold;
+    color: #000;
+    pointer-events: none;
+}
+
+
+.title-how-it-section {
+	padding-bottom: 23px;
+}
+
+.how-button button.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+	font-size: 18px;
+    font-weight: 400;
+    padding: 10px 53px !important;
+}
+
+/* starts ninth section styles*/
+
+.icons-ninth-section {
+	min-height: 290px;
+}
+
+
+.icons-fn-section {
+	border-bottom: 1px solid #828282;
+	
+}
+
+.icon-ffs {
+	padding-top: 18px;
+	border-right: 1px solid #828282;
+}
+
+.icon-sfs {
+	padding-top: 18px;
+}
+
+
+/*css new*/
+.hero {
+	padding-top: 51px;	
+	min-height: 502px;
+}
+.hero-text {
+	padding-top: 27px;
+	padding-bottom: 51px;
+}
+.hero-button {
+	  
+}
+.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger.hero-button-box {
+	background-color: #c11111;
+    font-weight: 400;
+    font-size: 180%;
+    font-weight: 700;
+    padding: 16px 64px !important;
+}
+
+.image-video-home-container {
+	float: left;
+	padding-bottom: 32px;
+	display: block;
+    width: 100%;
+}
+
+.what-is-the-purse-club {
+	min-height: 410px;
+	padding-top: 35px;
+}
+.what-is-the-purse-club h2 {
+	text-align: center;
+    font-weight: 700;
+    font-size: 300%;
+}
+.what-is-the-purse-club h4 {
+	width: 94%;
+    text-align: center;
+    font-size: 132%;
+    font-weight: 600;
+    color: #ce9d0b;
+    padding-top: 3px;
+    margin-bottom: 0;
+}
+.what-is-the-purse-club p {
+	text-align: center;
+    font-size: 113%;
+	font-weight: 500;
+	padding: 0 16px;
+}
+.witpc-text {
+	margin-bottom: 35px;
+}
+
+.witpc-text p {
+	text-align: center;
+    font-size: 145%;
+    font-weight: 500;
+}
+.witpc-mini-box {
+	min-height: 132px;
+	border-right: 1px solid #999999;
+}
+.witpc-big-box {
+	padding: 0 2%;
+}
+.witpc-box {
+	padding-left: 0;
+	padding-right: 0;
+}
+.vip-membership-benefits {
+	min-height: 544px;
+}
+.vip-membership-benefits h3 {
+	color: #ffffff;
+    text-align: center;
+	padding-top: 45px;
+    font-size: 221%;
+    font-weight: 700;
+}
+.vip-membership-benefits h4{
+	color: #cc9900;
+	text-align: center;
+	font-weight: 700;
+    font-size: 140%;
+}
+.vip-membership-benefits p {
+	color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 131%;
+	padding: 0 9%;
+	line-height: 25px;
+}
+.vip-membership-box {
+	padding-bottom: 17px;
+}
+.win-dream-bag {
+	min-height: 330px;
+    padding: 42px 0 0 0;
+}
+section.win-dream-bag img {
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.how-it-works {
+	padding-top: 35px;
+	background-color: #f3f3f3;
+	min-height: 589px;
+}
+.how-it-works h2 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 700;
+    margin-top: 9px;
+}
+.how-it-works h4 {
+	text-align: center;
+    font-size: 135%;
+    color: #cc9900;
+    font-weight: 700;
+}
+.how-it-works p {
+	text-align: center;
+    font-size: 116%;
+    line-height: 22px;
+    font-weight: 400;
+}
+.hiw-text {
+	padding-bottom: 28px;
+}
+.hiw-text p {
+	text-align: center;
+	font-size: 147%;
+	font-weight: 500;
+}
+.hitw-big-box {
+	padding-bottom: 43px;
+}
+.hitw-box {
+	border-right: 1px solid #999999;
+    min-height: 284px;
+}
+.hitw-neg-box {
+	min-height: 284px;
+	border-right: none !important;
+}
+.section-icon {
+	padding-top: 29px;
+	padding-bottom: 22px;
+}
+.section-icon img {
+	display: block;
+    margin: 0 auto;
+}
+.hiw-button {
+	padding: 0 41%;
+}
+
+.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-classic.vc_btn3-color-danger {
+	font-size: 18px;
+    font-weight: 400;
+    padding: 10px 44px !important;
+    background-color: #c11111;
+}
+.vc_general a {
+	color: #FFF;
+}
+.prior-collections {
+	padding-top: 35px;
+	min-height: 691px;
+}
+.prior-collections h2 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 600;
+    margin-top: 9px;
+}
+.prior-collections p {
+	text-align: center;
+    font-size: 147%;
+        padding-bottom: 24px;
+}
+.prior-collections-container {
+	padding-bottom: 40px;
+}
+.customers-love-us {
+	background-color: #f3f3f3;
+	padding-top: 35px;
+	min-height: 547px;
+}
+.customers-love-us h2 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 600;
+    margin-top: 9px;
+}
+.customers-love-us p {
+	text-align: center;
+    font-size: 147%;
+    padding-bottom: 30px;
+}
+.follow-us {
+	padding-top: 35px;
+    min-height: 688px;
+}
+.follow-us h2 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 600;
+    margin-top: 9px;
+}
+.follow-us p {
+	text-align: center;
+    font-size: 147%;
+}
+.features {
+	background-color: #f3f3f3;
+}
+.features img {
+	
+}
+.features h5 {
+	font-size: 118%;
+	line-height: 118%;
+}
+.features-box {
+	border-bottom: 1px solid #828282;
+	
+}
+.features-left {
+	border-right: 1px solid #828282;
+}
+.features-down {
+	
+}
+.features-right { 
+    
+}
+.features .safe {
+	
+}
+.features-down-right {
+	
+}
+.underline-wbb {
+    border-bottom: 1px solid #999999;
+}
+/*-------------------------- starts Select Your Plan Page -----------------------------*/
+.syp-container-box {
+	padding-top: 59px;
+}
+
+.syp-main-box {
+	padding-top: 92px;
+	padding-bottom: 70px;
+	padding-right: 0;
+}
+
+.syp-big-box {
+	background-color: #f3eae7;
+    float: right;
+    padding-bottom: 41px;
+    padding-left: 18%;
+}
+.syp-mini-box {
+	background-color: #ffffff;
+    width: 338px;
+    margin-left: 45px;
+    padding: 42px 28px 38px 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.syp-mini-box h2 {
+	text-align: center;
+	font-size: 137%;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.syp-mini-box p {
+	text-align: center;
+    font-size: 98%;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    color: #000;
+}
+.syp-mini-box h3 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 21px;
+}
+.select-plan-syp {
+	background-color: #000;
+    padding: 13px;
+    text-align: center;
+    margin: 0px 0 -34px 22%;
+    color: #fff;
+    width: 56%;
+}
+
+.select-plan-syp p {
+	color: #fff;
+}
+
+.inside-box-syp {
+	border: 1px solid #000000;
+    padding: 10px;
+}
+.inside-box-syp img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 38px;
+}
+.month-title-syp {
+	background-color: #fff;
+    margin: -41px 24px 0;
+    padding-bottom: 47px;
+}
+.month-title-syp p {
+	text-align: center;
+    font-size: 98%;
+    color: #000;
+}
+.woman-img-section {
+	position: absolute;
+	margin: 30px 0 0 39px;
+	border: 1px solid #000;
+}
+
+.title-section {
+	position: absolute;
+}
+.month-title-syp h2 {
+    text-align: center;
+    font-size: 160%;
+    font-weight: 600;
+}
+
+.tpc-page-select-your-plan {
+	padding-top: 94px;
+	padding-bottom: 117px;
+}
+
+.tpc-page-select-your-plan .container-fluid {
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/10/white-background.jpg);
+    background-color: #f3eae7;
+    background-repeat-x: no-repeat;
+    background-size: 18.3%;
+    padding-top: 30px;
+}
+
+.tpc-woman-border{
+    padding-left: 0;
+}
+.tpc-woman-border img {
+    max-width: 344px;
+    border: 1px solid;
+    width: calc(100% - 15px);
+}
+.tpc-item-select {
+    width: calc(50% - 15px);
+    float: left;
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 42px 26px;
+    box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.37);
+}
+.tpc-item-select:nth-child(1), .tpc-item-select:nth-child(2) {
+  margin-bottom: 40px;
+}
+.tpc-item-container .tpc-item-select:nth-child(odd){
+  margin-right: 30px;
+}
+p.tpc-center-padding {
+    text-align: center;
+    padding: 0 10%;
+}
+.inside-box-syp h3 {
+    text-align: center;
+    font-size: 286%;
+}
+.tpc-black-sm-button {
+    text-align: center;
+    margin-bottom: -18px;
+    margin-top: 31px;
+}
+
+.tpc-black-sm-button a {
+    padding: 15px 30px;
+    font-size: 120%;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+/*--------------------------- select your plan new design--------------------------------*/
+
+.syp-container-box {
+	padding-top: 59px;
+}
+
+.syp-main-box {
+	padding-top: 92px;
+	padding-bottom: 70px;
+	padding-right: 0;
+}
+
+.syp-big-box {
+	background-color: #f3eae7;
+    float: right;
+    padding-bottom: 41px;
+    padding-left: 18%;
+}
+.syp-mini-box {
+	background-color: #ffffff;
+    width: 338px;
+    margin-left: 45px;
+    padding: 42px 28px 38px 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.syp-mini-box h2 {
+	text-align: center;
+	font-size: 137%;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.syp-mini-box p {
+	text-align: center;
+    font-size: 98%;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    color: #000;
+}
+.syp-mini-box h3 {
+	text-align: center;
+    font-size: 267%;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 21px;
+}
+.select-plan-syp {
+	background-color: #000;
+    padding: 13px;
+    text-align: center;
+    margin: 0px 0 -34px 22%;
+    color: #fff;
+    width: 56%;
+}
+
+.select-plan-syp p {
+	color: #fff;
+}
+
+.inside-box-syp {
+	border: 1px solid #000000;
+    padding: 10px;
+}
+.inside-box-syp img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 38px;
+}
+.month-title-syp {
+	background-color: #fff;
+    margin: -41px 24px 0;
+    padding-bottom: 47px;
+}
+.month-title-syp p {
+	text-align: center;
+    font-size: 98%;
+    color: #000;
+}
+.woman-img-section {
+	position: absolute;
+	margin: 30px 0 0 39px;
+	border: 1px solid #000;
+}
+
+.title-section {
+	position: absolute;
+}
+.month-title-syp h2 {
+    text-align: center;
+    font-size: 160%;
+    font-weight: 600;
+}
+
+
+
+.psypnewd-woman-border{
+    padding-left: 0;
+}
+.psypnewd-woman-border img {
+    max-width: 344px;
+    border: 1px solid;
+    width: calc(100% - 15px);
+}
+.psypnewd-item-select {
+    width: calc(32% - 15px);
+    float: left;
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 42px 26px;
+    box-shadow: 0px 7px 14px 0px rgba(0, 0, 0, 0.37);
+}
+.psypnewd-item-select:nth-child(1), .psypnewd-item-select:nth-child(2) {
+  margin-bottom: 40px;
+}
+.psypnewd-item-container .psypnewd-item-select + .psypnewd-item-select{
+  margin-left: 30px;
+}
+p.psypnewd-center-padding {
+    text-align: center;
+    padding: 0 10%;
+}
+.inside-box-syp h3 {
+    text-align: center;
+    font-size: 286%;
+}
+.psypnewd-black-sm-button {
+    text-align: center;
+    margin-bottom: -18px;
+    margin-top: 31px;
+}
+
+.psypnewd-black-sm-button a {
+    padding: 15px 30px;
+    font-size: 120%;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/*-------------------------- starts Upselling Design Page -----------------------------*/
+.ups-page-select-your-plan {
+	padding-top: 80px;
+    padding-bottom: 117px;
+}
+
+.ups-container {
+	
+	margin-bottom: 58px;
+	padding-top: 44px;
+	background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/10/white-background.jpg);
+    background-color: #f3eae7;
+    background-repeat-x: no-repeat;
+    background-size: 18.3%;
+
+}
+.upd-item-container {
+	
+	padding-bottom: 38px;
+}
+
+.upd-woman-border {
+	padding-left: 0;
+	margin-right: 53px;
+}
+.upd-woman-border img {
+	border: 1px solid;
+	width: 653px;
+	max-width: none;
+}
+.upd-purse {
+
+}
+.upd-purse img {
+	max-width: none;
+	border: 1px solid;
+	margin-bottom: 4px;
+}
+.upd-purse h2 {
+	font-size: 382%;
+    font-weight: 700;
+    width: 89%;
+    padding-bottom: 8px;
+}
+.upd-purse h3 {
+	font-size: 136%;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.upd-purse p  {
+    font-size: 146%;
+    font-weight: 400;
+    margin-bottom: 13px;
+    margin-bottom: 14px;
+}
+.upd-purse p sup {
+	font-size: 140%;
+    font-weight: 500;
+    top: 1px;	
+}
+.upd-purse p sub {
+	font-size: 187%;
+    font-weight: 500;
+}
+.upd-button {
+
+}  
+.upd-inside-button {
+
+}
+.upd-button a {
+	background: #000;
+    color: #fff;
+    text-align: center;
+    width: 308px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 168%;
+    text-decoration: none;
+}
+.underline-upd {
+	border: 1px solid #000;
+    width: 18%;
+    margin-top: -9px;
+    margin-bottom: 57px;
+}
+.upd-check {
+
+}
+
+.upd-check p {
+	font-size: 101%;
+    font-weight: 700;
+}
+.upd-inside-purse {
+	
+}
+
+/*--------------------------------------------About Us Section--------------------------------------*/
+
+
+.aboutus-page {
+	padding-top: 94px;
+    padding-bottom: 117px;
+}
+.aboutus-page-header {
+    min-height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutus-page-header h1 {
+	text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 240%;
+    color: #fff;
+    margin-bottom: 0;
+}
+.aboutus-header-p {
+	border-top: none;
+    margin: 0 auto;
+    max-width: 714px;
+    padding-top: 0;
+}
+
+.aboutus-header-p p {
+	margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 364%;
+    font-weight: 700;
+}
+
+.aboutus-button a{
+	background: #d80000;
+    color: #fff;
+    text-align: center;
+    width: 308px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 168%;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 0;
+}
+
+.underline-aboutus {
+    border: 1px solid #333333;
+    width: 296px !important;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------Receipt Section--------------------------------------*/
+
+.receipt-page {
+	padding-top: 36px;
+    padding-bottom: 117px;
+}
+
+.receipt-page-header {
+    min-height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.receipt-page-header h1 {
+	text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 240%;
+    color: #fff;
+    margin-bottom: 0;
+}
+.receipt-header-p {
+	border-top: none;
+    margin: 0 auto;
+    max-width: 714px;
+    padding-top: 0;
+}
+
+.receipt-header-p p {
+	margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.receipt-button a{
+	background: #d80000;
+    color: #fff;
+    text-align: center;
+    width: 308px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 168%;
+    text-decoration: none;
+    font-weight: 600;
+}
+.receipt-big-section {
+	border: 1px solid #cccccc;
+	background-color: #f5f5f5;
+}
+
+.receipt-inside-third {
+    border: 20px solid #bae1ff;
+    background-color: #fff;
+    border-radius: 11px;
+    margin-top: 39px;
+}
+
+.receipt-button {
+	margin-top: -47px;
+    float: right;
+}
+.receipt-button a {
+	background: #999999;
+    color: #fff;
+    text-align: center;
+    width: 83px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 90%;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 1px solid;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 4px 0;
+}
+.receipt-go-button a {
+	background: #333333;
+    color: #fff;
+    text-align: center;
+    width: 292px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 162%;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 9px 0;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+/*--------------------------------------------Faq Section--------------------------------------*/
+
+.faq-page {
+	padding-top: 10px;
+    padding-bottom: 117px
+}
+.faq-page-header {
+    min-height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-page-header h1 {
+	text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 240%;
+    color: #fff;
+    margin-bottom: 0;
+}
+.faq-header-p {
+	border-top: none;
+    margin: 0 auto;
+    max-width: 714px;
+    padding-top: 0;
+}
+
+.faq-header-p p {
+	margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.faq-go-button a {
+	background: #c11111;
+    color: #fff;
+    text-align: center;
+    width: 292px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 162%;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 9px 0;
+    border: 2px solid;
+    border-radius: 6px;
+}
+.faq-first-text p {
+	font-size: 16px;
+}
+
+
+/*--------------------------------------------Faq Section--------------------------------------*/
+
+/*------------------------------------*\
+-------- DEMO Code: accordion
+\*------------------------------------*/
+/*----- Accordion -----*/
+.accordion, .accordion * {
+  -webkit-box-sizing:border-box; 
+  -moz-box-sizing:border-box; 
+  box-sizing:border-box;
+}
+
+.accordion {
+	overflow:hidden;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width:100%;
+	padding:15px;
+	display:inline-block;
+	border-bottom:1px solid #1a1a1a;
+	background:#333;
+	transition:all linear 0.15s;
+	/* Type */
+	font-size:1.200em;
+	text-shadow:0px 1px 0px #1a1a1a;
+	color:#fff;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+	background:#4c4c4c;
+	/* Type */
+	text-decoration:none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+ 
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+	display:none;
+}
+
+/**Footer**/
+
+.accordion.col-xs-12.col-sm.col-md.col-lg {
+	padding: 0;
+}
+
+.faq-accordion-footer {
+  	margin-top: 38px;
+    margin-bottom: 45px !important;
+  	background-color: #f5f5f5;
+}
+.faq-footer-container {
+	padding-left: 6.2%;  
+	padding-bottom: 3px;
+	border-right: 2px solid #c5c5c5;
+}
+.faq-footer-container:last-child{
+  	border-right: none;
+}
+.faq-accordion-footer ul {
+	padding: 0;
+	margin: 0;
+}
+.faq-accordion-footer ul li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.faq-accordion-footer h3 {
+	text-align: left;
+	font-size: 121%;
+	font-weight: 600;
+	margin-top: 8px;
+	margin-bottom: 14px;
+}
+.faq-accordion-footer a.accordion-section-title {
+	font-size: 133%;
+	font-weight: 500;
+	letter-spacing: 0;
+	border-bottom:2px solid #c5c5c5;
+	border-color: #ffffff;
+	background-color: transparent;
+	padding-left: 15px;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/down-arrow-faq.png);
+	background-repeat: no-repeat;
+	background-position: 96.6%;
+
+}
+.faq-accordion-footer a.accordion-section-title.active{
+  	background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/up-arrow-faq.png);
+ 	border-bottom: 2px solid;
+  	border-color: #808080 !important;
+}
+
+.faq-accordion-footer .accordion-section:first-child a.accordion-section-title{
+  	border-color: #ffffff;
+}
+.faq-accordion-footer .accordion-section-content {
+  	border-color: #c5c5c5;
+  	padding: 27px 0 24px;
+}
+.faq-accordion-footer .accordion-section:last-child .accordion-section-content {
+  	border-bottom: none;
+}
+.faq-accordion-footer ul li p {
+	padding: 0 15px;
+	text-align: justify;
+}
+.faq-col-right, .faq-col-left {
+	text-align: center;
+}
+.faq-container-copyright p {
+	margin: 0;
+	font-weight: 600;
+	font-size: 90%;
+	letter-spacing: 0.7px;
+}
+.faq-container-copyright {
+	background-color: #f8f7f6;
+	padding: 16px 0px;
+}
+
+/*--------------------------------------------Login Section--------------------------------------*/
+
+.loginp-main-container {
+	background-color: #f7f6f6;
+	padding: 25px !important;
+}
+
+.loginp-page {
+
+}
+.loginp-bar-contain {
+	border: 1px solid;
+
+}
+.loginp-subscribe-bar {
+	background-color: #000000;
+	color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 125%;
+    padding: 26px 0;
+}
+.loginp-subscribe-bar a {
+	color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.loginp-logo-box {
+	padding-top: 137px;
+    margin-bottom: 10px
+}
+.loginp-logo-box img {
+	margin: 0 auto;
+    display: block;
+    width: 66
+}
+.loginp-info-section {
+	border: none !important;
+}
+.loginp-info-section h3 {
+	color: #d22c27;
+    font-size: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 43px 0px;
+}
+.loginp-box {
+	padding-bottom: 155px;
+}
+
+.loginp-box input {
+	width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    margin-bottom: 17px;
+    background: #efeeee;
+}
+.logp-submit-container {
+	margin-bottom: 40px;
+}
+.logp-submit-container button {
+	background: #d80000;
+    color: #fff;
+    padding: 4px 30px;
+    border: none;
+    letter-spacing: 1px;
+}
+.loginp-box button {
+	margin: 0 auto;
+    display: block;
+}	
+.loginp-box h5 {
+	text-align: center;
+	margin-bottom: 13px;
+}
+.loginp-box a {
+	text-align: center;
+    display: block;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.loginp-box .email-container {
+	margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+.loginp-box .password-container {
+	margin: 0 auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.login-fields-sec {
+	margin: 0 auto !important;
+    display: block !important;
+    width: 50% !important;
+}
+
+.log-in-button {
+	margin: 0 auto !important;
+    display: block !important;
+    width: 108px !important;
+    background: #d80000 !important;
+    color: #fff !important;
+    padding: 8px 0px !important;
+    border: none !important;
+    letter-spacing: 1px !important;
+    border-radius: none !important;
+    margin-bottom: 40px !important;
+}
+
+.woocommerce-form__label woocommerce-form__label-for-checkbox inline {
+	display: none !important;
+}
+
+.woocommerce form .form-row label.inline {
+	display: none !important;
+}
+
+.loginp-box label {
+	display: none !important;
+}
+.loginp-box .input-text {
+	margin-bottom: 17px !important;
+}
+
+
+/*------------------------------------------------- My Account ---------------------------------------------------------*/
+
+.woocommerce-MyAccount-navigation ul li {
+	margin-right: 0 !important;
+}
+.woocommerce-MyAccount-navigation ul li a {
+	text-align: left;
+    font-size: 121%;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    border-left: 1px solid;
+    padding: 4px 22px 4px 22px;
+}
+.woocommerce-MyAccount-navigation ul li:first-child a {
+
+    border-left: none;
+}
+
+.account-login {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.woocommerce-MyAccount-content h3 {
+	font-size: 115%;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.woocommerce-orders table.shop_table td {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-top: none;
+	font-size: 120%;
+	font-weight: 600;
+
+}
+.woocommerce-orders table.my_account_orders {
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.woocommerce-orders table.shop_table th span {
+	font-size: 143%;
+}
+
+a.edit {
+    background: #999999;
+    color: #fff;
+    text-align: center;
+    width: 83px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 90%;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 1px solid;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 4px 0;
+}
+
+.account-address-title {
+	padding: 0px 18px;
+    background-color: #333;
+    color: #fff;
+}
+
+.account-addresses {
+	border: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+}
+.account-address-title a {
+	padding: 4px 0;
+	margin-top: 30px;
+	border: 2px solid #999999;
+}
+
+.billing-address h3 {
+	padding: 18px 18px;
+    background-color: #333;
+    color: #fff;
+}
+.billing-fields-box {
+	background-color: #f5f5f5;
+    padding: 15px;
+}
+.billing-fields-box input {
+	height: 50px;
+    font-size: 114%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.billing-fields-box input.button {
+    background-color: #333;
+    color: #fff;
+    margin: 3px;
+}
+
+.billing-fields-box .select2-selection {
+	height: 50px;
+    font-size: 90%;
+}
+
+.billing-fields-box .select2-selection span {
+	padding: 10px 40px 10px 8px !important;
+}
+
+.billing-fields-box .select2-selection__arrow {
+	height: 48px !important;
+    width: 40px !important;
+}
+.billing-fields-box .select2-selection__arrow b {
+	border-width: 10px 6px 0 6px;
+}
+
+/*------------------------------------------------- MODAL PRIVACY AND TERMS--------------------------------------------*/
+
+.pt-content-box {
+	background-color: #fff !important ;
+}
+.modal-lg {
+	max-width: 572px !important;
+}
+.pt-modal-box {
+	margin: 25px;
+    border: 1px solid #000 !important;
+}
+.pt-header {
+	background-color: #fff !important;
+	border: none !important;
+	color: #000 !important;
+}
+.pt-header h4 {
+	color: #000 !important;
+	font-size: 150%;
+    font-weight: 600;
+}
+.underline-pt {
+	border: 1px solid;
+    width: 25%;
+    margin: 0 auto;
+}
+.pt-footer-box {
+	border-top: none !important;
+}
+.pt-text-box{
+	padding: 15px 25px !important;
+} 
+.pt-text-box p {
+	margin-bottom: 25px;
+	cursor: pointer !important;
+}
+
+.tpc-container-copyright p {
+
+}
+.terms-user-footer {
+	cursor: pointer !important;
+}
+
+.Thank-you-box {
+	border: 1px solid;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,1.1);
+}
+.details-title-table {
+	padding: 18px 18px;
+    background-color: #333;
+    color: #fff;
+    font-size: 115%;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.quiz-next-button a {
+	background: #c11111;
+    color: #fff;
+    text-align: center;
+    width: 308px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 168%;
+    text-decoration: none;
+	margin-bottom: 50px;
+	cursor: pointer !important;
+}
+
+a.tpc-button-shadow {
+    box-shadow: none !important;
+}
+
+.card-images {
+    padding: 0 15px;
+    margin-bottom: 35px;
+    clear: both;
+}
+.card-images img {
+    margin: 0;
+}
+.word-image {
+	display: none;
+	margin: 0 auto;
+}
+.word-image-responsive {
+	display: block;
+	margin: 0 auto !important;
+}
+.secure-box {
+    clear: both;
+}
+.secure-box img {
+	padding: 0 15px;
+	float: left;
+}
+.secure-box p {
+    font-size: 110%;
+    text-transform: none;
+    font-weight: 600;
+}
+.secure-text {
+    padding-top: 20px;
+}
+/***********************************************
+PRE-SELL ONE
+***********************************************/
+.presell-one-header{
+    background-color: #d2066d;
+}
+.presell-one-header a{
+    margin: 15px 0 15px 199px;
+    display: block;
+}
+.presell-one-top-header-container {
+    overflow: hidden;
+    padding: 40px 0 23px;
+}
+.presell-one-top-header {
+    padding: 20px 0px;
+}
+.presell-one-top-header h1 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 204%;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 39px;
+    letter-spacing: 2px;
+}
+.presell-one-top-a:hover {
+    text-decoration: none;
+}
+.presell-one-top-header .poth-subtitle {
+    font-size: 75%;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-top: 1px;
+    display: block;
+    margin-right: 25px;
+}
+.presell-one-top-right-ad {
+    padding-top: 8px;
+}
+.presell-one-top-right-ad h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: -2px;
+    margin: 0;
+}
+.presell-one-top-right-ad h2 span {
+    display: block;
+    font-size: 50%;
+    letter-spacing: 1px;
+}
+.presell-one-content {
+    border: 2px solid #000;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    padding: 17px 0;
+}
+.presell-one-content p,
+.presell-one-content a,
+.presell-one-content span,
+.presell-one-content h2,
+.presell-one-content h3,
+.presell-one-content h4 {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.presell-one-content h2,
+.presell-one-content h3,
+.presell-one-content h4 {
+    margin: 0;
+}
+.presell-one-date {
+    color: #666;
+    font-size: 107%;
+    margin-bottom: 10px;
+}
+.presell-one-date span,
+.presell-one-date a {
+    color: #666!important;
+    font-size: 103%!important;
+}
+.presell-one-content h2 {
+    font-size: 291%;
+    font-weight: bold;
+    line-height: 115%;
+    margin-bottom: 4px;
+}
+.presell-one-subtitle {
+    border-top: 1px solid #e0e0e0;
+    padding: 4px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 103%;
+    margin-bottom: 15px;
+}
+.presell-one-copy {
+    clear: both;
+}
+.presell-one-content p {
+    font-size: 115%;
+    line-height: 150%;
+    margin-bottom: 18px;
+}
+.presell-one-content a {
+    font-size: 100%;
+    line-height: 150%;
+    margin-bottom: 18px;
+    text-decoration: underline;
+    color: #0299ff;
+    text-decoration-color: #0299ff;
+}
+.presell-one-content a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.presell-one-brands-img {
+    margin-bottom: 24px;
+}
+.align-r {
+    float: right;
+    border: 3px solid #cc0000;
+    margin-left: 20px;
+}
+.align-l {
+    float: left;
+    border: 3px solid #cc0000;
+    margin-right: 20px;
+}
+.float-r {
+    float: right;
+    display: block;
+}
+.margin-b-20 {
+    margin-bottom: 20px!important;
+}
+.presell-one-content h3 {
+    font-size: 218%;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+.presell-one-content h4 {
+    text-transform: uppercase;
+    font-size: 220%;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.presell-one-centered-img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 42px;
+    margin-bottom: 57px;
+}
+.presell-one-footer {
+    background-color: #d2066d;
+    margin: 50px 0 0;
+    padding: 40px;
+}
+.presell-one-footer p {
+    text-align: center;
+    color: #fff;
+}
+.presell-one-footer img {
+    display: block;
+    margin: 0 auto;
+    margin: 30px auto 0;
+}
+.remove-left-padding {
+    padding-left: 0;
+}
+.remove-right-padding {
+    padding-right: 0;
+}
+/***********************************************
+PRE-SELL TWO
+***********************************************/
+.presell-two-header{
+    background-color: #ff6766;
+}
+.presell-two-header a{
+    margin: 15px 0 15px 0;
+    display: block;
+}
+.presell-two-header a img {
+    display: block;
+    margin: auto;
+}
+.presell-two-top-header-container {
+    overflow: hidden;
+    padding: 40px 0 23px;
+}
+.presell-two-top-header {
+    padding: 20px 0px;
+}
+.presell-two-top-header h1 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 204%;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 39px;
+    letter-spacing: 2px;
+}
+.presell-two-top-a:hover {
+    text-decoration: none;
+}
+.presell-two-top-header .poth-subtitle {
+    font-size: 75%;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-top: 1px;
+    display: block;
+    margin-right: 25px;
+}
+.presell-two-top-right-ad {
+    padding-top: 8px;
+}
+.presell-two-top-right-ad h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: -2px;
+    margin: 0;
+}
+.presell-two-top-right-ad h2 span {
+    display: block;
+    font-size: 50%;
+    letter-spacing: 1px;
+}
+.presell-two-content {
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    padding: 37px 0;
+}
+.presell-two-content p,
+.presell-two-content a,
+.presell-two-content span,
+.presell-two-content h2,
+.presell-two-content h3,
+.presell-two-content h4 {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+.presell-two-content h2,
+.presell-two-content h3,
+.presell-two-content h4 {
+    margin: 0;
+}
+.presell-two-date {
+    color: #666;
+    font-size: 107%;
+    margin-bottom: 10px;
+    margin-top: -6px;
+}
+.presell-two-header .presell-two-date {
+    color: #fff !important;
+    font-size: 107%;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: center;
+}
+.margin-auto{
+	margin: auto;
+}
+.presell-two-header .presell-two-date a,.presell-two-header .presell-two-date a span {
+    display: inline;
+    color: #fff !important;
+}
+.presell-two-date span,
+.presell-two-date a {
+    color: #666!important;
+    font-size: 103%!important;
+}
+.presell-two-content h2 {
+    font-size: 291%;
+    font-weight: bold;
+    line-height: 115%;
+    margin-bottom: 4px;
+}
+.presell-two-subtitle {
+    border-top: 1px solid #e0e0e0;
+    padding: 4px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 103%;
+    margin-bottom: 25px;
+}
+.presell-two-copy {
+    clear: both;
+}
+.presell-two-content p {
+    font-size: 115%;
+    line-height: 150%;
+    margin-bottom: 18px;
+}
+.presell-two-content a {
+    font-size: 100%;
+    line-height: 150%;
+    margin-bottom: 18px;
+    text-decoration: underline;
+    color: #0299ff;
+    text-decoration-color: #0299ff;
+}
+.presell-two-content a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.presell-two-brands-img {
+    margin-bottom: 24px;
+}
+.presell-two-content h3 {
+    font-size: 173%;
+    margin-bottom: 14px;
+}
+.presell-two-content h4 {
+    font-size: 144%;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.presell-two-centered-img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+.presell-two-footer {
+    margin: 0px 0 0;
+    padding-bottom: 40px;
+}
+.presell-two-footer p {
+    text-align: center;
+    color: #000;
+}
+.presell-two-footer img {
+    display: block;
+    margin: 0 auto;
+    margin: 30px auto 0;
+}
+.presell-two-video{
+	padding-bottom: 32px;
+}
+.tpc-justified, .presell-two-copy p{
+	text-align: justify;
+}
+.margin-b-27 {
+    margin-bottom: 27px !important;
+}
+.margin-b-11 {
+    margin-bottom: 11px !important;
+}
+.presell-two-container-img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+}
+.presell-two-button a {
+    font-size: 170%;
+    display: block;
+    text-align: center;
+    background-color: #ff6566;
+    padding: 14px 5px;
+    border-radius: 9px;
+    color: #fff;
+    text-decoration-color: #fff;
+    text-decoration: none;
+}
+.presell-two-button a:hover{
+    color: #fff;
+}
+.presell-two-content h5 {
+    font-size: 112%;
+    line-height: 115%;
+    margin-bottom: 4px;
+}
+span.presell-two-space {
+    padding: 0px 4px;
+}
+.presell-two-content .tpc-testim-stars {
+    background-image: url(../img/star3.png);
+    padding: 10px;
+    margin-right: 5px;
+}
+.presell-two-container-commentary {
+    padding-top: 18px;
+    margin-bottom: 45px;
+}
+.presell-two-commentary {
+    padding: 18px;
+}
+.presell-two-commentary {
+    padding: 18px 18px 9px 18px;
+    background-color: #ececec;
+    margin-bottom: 14px;
+    min-height: 109px;
+}
+.presell-two-commentary p {
+    line-height: 20px;
+}
+.presell-two-content .tpc-content-stars {
+    margin-bottom: 9px;
+}
+.add-review {
+    font-size: 115%;
+    text-decoration: underline;
+    color: #0299ff !important;
+}
+.add-review:hover{
+	color: #0299ff;
+}
+.bold-light-yellow p:last-child {
+    margin-bottom: 0 !important;
+}
+.bold-light-yellow {
+	background-color: #fbf2e4 ;
+	padding: 20px;
+	margin: 5px 0px;
+	font-weight: normal;
+}
+h2.presell-two-sm {
+    font-size: 215%;
+}
+.margin-b-34{
+    margin-bottom: 34px;
+}
+.presell-two-line {
+    background-color: #ff6666;
+    height: 2px;
+    margin: 0 auto 20px auto;
+    width: 100%;
+}
+.height-1{
+	height: 1px;
+}
+p.presell-two-big {
+    font-size: 121%;
+    letter-spacing: -0.7px;
+}
+.presell-two-light {
+    color: #666666 !important;
+}
+.presell-two-sidebar a {
+    width: 100%;
+    display: block;
+    float: none;
+}
+.presell-two-sidebar {
+    padding-top: 20px;
+}
+.presell-two-footer a{
+	color: #000;
+	text-decoration: underline;
+}
+.presell-two-footer a:hover{
+	color: #000;
+	text-decoration: none;
+}
+.quiz-color-text {
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 145%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*------------------------------------*\
+  6 COLUMNS
+\*------------------------------------*/
+
+.col-xs-6ths,
+.col-sm-6ths,
+.col-md-6ths,
+.col-lg-6ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-6ths {
+    width: 16.6%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-6ths {
+		width: 16.6%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+    .col-md-6ths {
+		width: 16.6%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+    .col-lg-6ths {
+		width: 16.6%;
+		float: left;
+	}
+}

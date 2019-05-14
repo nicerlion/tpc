@@ -1,0 +1,209 @@
+.admin-header {
+    margin-top: 84px;
+}
+
+.admin-accordeon {
+    margin-bottom: 50px;
+}
+
+.admin-line {
+    border: 1px solid;
+}
+
+.admin-title-header {
+    width: 290px;
+    margin: 0 auto;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 44px;
+}
+
+.admin-title-header h1 {
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 255%;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.admin-account-section {
+    margin-bottom: 60px;
+}
+
+.admin-type-mini-box {
+    background-color: #f1c83e;
+    padding: 39px 15px;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+}
+
+.admin-type-mini-box p {
+    margin: 0;
+    color: #fff;
+    font-size: 128%;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.admin-type-mini-box p:last-child {
+    font-size: 89%;
+    padding-top: 0;
+}
+
+.admin-user-name {
+    float: left;
+}
+
+.admin-user-name p {
+    font-size: 155%;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.admin-user-name span {
+    margin-right: 10px;
+}
+
+.admin-user-name img {
+    margin-bottom: -4px;
+}
+
+.admin-accordion-title {
+    color: #000;
+    background-color: #fff;
+    border-top: 1px solid #c3c3c3;
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/down-arrow-faq.png);
+    background-repeat: no-repeat;
+    background-position: 96.6%;
+    font-size: 170%;
+    padding: 31px 0;
+}
+
+.admin-accordion-title:hover {
+    background-color: #fff;   
+}
+
+.admin-accordion-title.active {
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/up-arrow-faq.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 96.6% !important;
+}
+
+.admin-accordion-title:last-child {
+    border-bottom: 1px solid #c3c3c3 !important;    
+}
+
+.admin-accordion-title.active {
+    background: #ffffff;
+}
+
+.admin-accordion-title:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
+.admin-accordion-title-bt {
+    color: #000;
+    background-color: #fff;
+    border-top: 1px solid #c3c3c3;
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/up-arrow-faq.png);
+    background-repeat: no-repeat;
+    background-position: 96.6%;
+    font-size: 170%;
+    padding: 31px 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+    transition: all linear 0.15s;
+    text-shadow: 0px 1px 0px #1a1a1a;
+}
+
+.admin-accordion-title-bt.collapsed {
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/down-arrow-faq.png);
+}
+
+.admin-accordion-title-bt:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.admin-accordion-title-bt.active {
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2017/11/up-arrow-faq.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 96.6% !important;
+}
+
+.admin-accordion-title-bt.active {
+    background: #ffffff;
+}
+
+.admin-accordion-title-bt:focus {
+    color: #000000;
+    text-decoration: none;
+    outline-offset: 0;
+    outline: none;
+}
+
+.card-header h5 {
+    margin: 0;
+}
+
+.card-header btn-link:hover {
+    background-color: #fff;
+}
+
+.btn-link:hover {
+    background-color: #fff;
+}
+
+.card-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.card-header .btn-link:hover,
+.btn-link:hover {
+    border-top-color: #c3c3c3;
+}
+
+#accordion {
+    margin-bottom: 70px;
+}
+
+.admin-store {
+    margin: 20px auto 0;
+}
+
+.admin-store a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 125%;
+    letter-spacing: -1px;
+    background-color: #cd3333;
+    max-width: 100%;
+    display: block;
+    width: 187px;
+    padding: 15px!important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.admin-type-mini-box, {
+    display: none !important;
+}
+
+.admin-user-name {
+    float: none !important;
+}
+
+.asrm {
+    margin-right: 15px;
+}

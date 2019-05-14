@@ -1,0 +1,82 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+    .admin-type-mini-box {
+        margin: 0 auto;
+        display: block;
+    }
+    .admin-user-name {
+        float: none;
+        text-align: center;
+    }
+    .asrm {
+        margin-right: 0;
+    }
+
+}
+    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+    .admin-type-mini-box {
+        margin: 0;
+        display: inline-block;
+        float: left;
+        margin-right: 32px;
+    }
+
+    .admin-user-name {
+        float: left;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .admin-store {
+        float: right;
+        margin-top: 33px;
+        clear: inherit;
+    }
+    .admin-user-name {
+        float: left !important;
+    }
+    .asrm {
+        margin-right: 15px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+    
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

@@ -1,0 +1,53 @@
+
+/***********************************************
+ General
+***********************************************/
+.wrap.tpc-titel div {
+    display: none;
+}
+.wrap.tpc-titel h2{
+    margin-bottom: 20px;
+}
+
+/***********************************************
+ Results Of The Quiz
+***********************************************/
+.tpc-results-quiz table.tpc-table-admin td {
+    width: 25%;
+}
+
+.tpc-results-quiz table.tpc-table-admin {
+    width: calc(100% - 20px);
+    box-shadow: 0 0 20px -1px rgba(0, 0, 0, 0.49);
+}
+.tpc-results-quiz table thead {
+    background: #000;
+    color: #000;
+}
+.tpc-results-quiz table thead th {
+    color: #fff;
+    font-weight: normal;
+    height: 35px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: #f1f1f1 !important;
+}
+.tpc-results-quiz table tbody tr {
+    background-color: #fff;
+    border-color: #555 !important;
+}
+.tpc-results-quiz table tbody tr td {
+    color: #000;
+    font-weight: normal;
+    height: 35px;
+    font-size: 14px;
+    text-align: left;
+    border-color: #f1f1f1 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tpc-results-quiz table tbody tr:nth-child(even) {
+    background-color: #dadada;
+}

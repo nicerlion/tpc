@@ -1,0 +1,22 @@
+.apply-coupon {
+    color: #fff;
+    background: #000;
+    padding: 8px 44px 5px;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+.apply-coupon:hover {
+    text-decoration: underline;
+}
+
+.cc-card-mini-box .cc-card-form label {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    width: 100%;
+}

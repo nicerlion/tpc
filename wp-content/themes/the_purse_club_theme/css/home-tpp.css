@@ -1,0 +1,322 @@
+/*STYLES FOR THE PERFECT PURSE HOME PAGE*/
+* {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.tpc-top-ads {
+    margin-bottom: 0;
+}
+.tpp-center-add {
+    font-size: 120%;
+}
+.tpp-center-add a {
+    color: #ccc;
+    text-decoration: underline;
+}
+.tpp-center-add a:hover {
+    text-decoration: none;
+}
+.tpp-hero {
+    padding-bottom: 40px;
+}
+.tpp-h2 {
+    text-align: center;
+    font-size: 233%;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 21px;
+}
+.tpp-what-you-receive {
+    overflow: hidden;
+}
+.tpp-hero h1 {
+    margin: 0;
+}
+.tpp-hero h1 span {
+    display: none;
+}
+
+.tpp-hero h1 img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.tpp-hero h2 span {
+    display: none;
+}
+.tpp-hero h2 img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 22px;
+}
+
+.tpp-hero p {
+    text-align: center;
+    font-size: 107%;
+    color: #fff;
+    letter-spacing: 0px;
+}
+.tpp-hero p a {
+    font-size: 113%;
+    color: #fff;
+}
+
+.tpp-hiw-content {
+    padding-bottom: 53px!important;
+    border: none!important;
+    position: relative;
+    overflow: hidden;
+}
+
+.tpp-hiw-text {
+    text-align: center;
+    font-size: 131%;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+}
+.tpp-hiw-copy h3 {
+    font-weight: 600;
+    font-size: 140%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.tpp-hiw-copy p {
+    font-size: 107%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.tpp-right-arrow-vertical {
+    background-image: url('https://www.thepurseclub.com/wp-content/uploads/2017/10/right-arrow.png');
+}
+
+.tpp-btn-body-s {
+    text-align: center;
+    padding: 0;
+    clear: both;
+    max-width: 375px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.tpp-btn-body-s a {
+    font-size: 200%;
+    font-weight: 600;
+    letter-spacing: -2px;
+    color: #fff;
+    background-color: #cd3333;
+    max-width: 330px;
+    display: block;
+    width: calc(100% - 15px);
+    padding: 15px !important;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.tpp-wyr-text p {
+    font-size: 147%;
+    font-weight: 500;
+}
+
+.tpp-wyr-p {
+    font-size: 147%;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.tpp-what-container {
+    margin-bottom: 29px;
+}
+
+.tpp-map-content h3 {
+    font-weight: 600;
+    font-size: 140%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.tpp-map-content {
+    padding-bottom: 100px;
+}
+.tpp-map-content p {
+    font-size: 107%;
+    text-align: center;
+}
+.tpp-map-h2 {
+    text-align: center;
+    font-size: 233%;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 74px;
+}
+
+.tpp-comment-h2 {
+    text-align: center;
+    font-size: 233%;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 74px;
+}
+
+.tpp-carousel-container {
+    padding-bottom: 70px;
+}
+
+.tpp-carousel-container ul {
+    list-style: none;
+}
+
+.tpp-carousel-container ul li {
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.tpp-week-h2 {
+    text-align: center;
+    font-size: 385%;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 21px;
+    color: #fff;
+    font-family: 'lato';
+    padding-top: 90px;    
+}
+
+.tpp-weekly p {
+    text-align: center;
+    font-size: 160%;
+    padding: 0 17%;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.tpp-weekly img {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.tpp-btn-body-week {
+    text-align: center;
+    padding: 11px 0;
+    clear: both;
+    max-width: 375px;
+    margin: auto;
+    margin-bottom: 122px;
+}
+
+.tpp-btn-body-week a {
+    font-size: 200%;
+    font-weight: 600;
+    letter-spacing: -2px;
+    color: #fff;
+    background-color: #cd3333;
+    padding: 15px 74px;
+    text-decoration: none;
+}
+
+.tpp-video-box {
+    position: relative;
+    padding-bottom: calc(56.25% - 24px);
+    padding-top: 25px;
+    height: 0;
+}
+
+.tpp-video-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tpp-ready-h2 {
+    text-align: center;
+    font-size: 233%;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 21px;
+}
+
+.tpp-ready p {
+    text-align: center;
+    font-size: 143%;
+    padding: 0 17%;
+    margin-bottom: 50px;
+}
+.right-arrow-vertical.arrow-vertical-35 {
+    left: calc(35.33% - 30px);
+    bottom: -250px;
+}
+.right-arrow-vertical.arrow-vertical-65 {
+    left: calc(100% - 35.33% + 8.75px - 8px);
+    bottom: -250px;
+}
+.tpp-wyr-text {
+    padding-bottom: 45px;
+}
+span.tpp-arrow-btn {
+    font-size: 85%;
+    padding-left: 5px;
+}
+a.tpp-yellow-text {
+    text-decoration: underline;
+}
+a.tpp-yellow-text:hover {
+    text-decoration: none;
+}
+.tpp-yellow-text {
+    color: #edd104 !important;
+}
+.tpp-hero .tpp-yellow-text {
+    font-weight: bold;
+    font-size: 100%;
+}
+img.tpp-members-receive {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 22px;
+}
+.tpp-top-ads .center-ad.tpp-center-add {
+    display: block !important;
+    font-size: 170%;
+    font-weight: normal;
+    color: #fff;
+}
+.tpp-top-ads{
+    padding: 4px 0;
+}
+
+section.tpp-hero img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section.tpp-ready video {
+    margin-bottom: -6px;
+}
+.tpp-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.tpp-video-container{
+    position: relative;
+}
+.tpp-video-img{
+    display: block;
+    margin: 0 !important;
+    width: 100%;
+}
+.tpp-video-container .video-js {
+    width: 100%;
+    height: 100%;
+}

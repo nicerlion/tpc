@@ -1,0 +1,79 @@
+.receipt-inside-third ul {
+    margin-top: 15px;
+    padding-left: 0;
+}
+
+.receipt-inside-third li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.receipt-big-section {
+    padding: 20px;
+}
+
+.receipt-page-header {
+    background-image: url(https://www.thepurseclub.com/wp-content/uploads/2018/02/banner-receipt-1.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: #d25d75;
+    background-size: cover;
+    padding: 20px 30px;
+}
+
+.receipt-banner-container {
+    width: 100%;
+    max-width: 774px;
+    margin: 0;
+    border: 4px solid #fff5d2;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.27);
+}
+
+.receipt-banner-content {
+    width: 100%;
+    border-top: 2px solid #fff5d2;
+    border-bottom: 2px solid #fff5d2;
+    padding: 35px 33px 20px;
+}
+
+.receipt-banner-border {
+    border-top: 1px solid #50b675;
+    border-bottom: 1px solid #50b675;
+    padding: 16px 0 3px 0;
+    margin-bottom: 20px;
+}
+
+.receipt-banner-border p {
+    font-size: 246%;
+    text-transform: uppercase;
+    font-family: serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p.small-yellow {
+    font-size: 170% !important;
+    font-family: lato;
+    color: #fef6d2;
+}
+
+.receipt-banner-container a {
+    display: block;
+    margin: 0 auto;
+    width: 192px;
+    text-align: center;
+    background-color: #50b675;
+    color: #fff;
+    font-size: 187%;
+    font-family: lato;
+    letter-spacing: 1px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.arrow-btn {
+    font-size: 49%;
+    top: -4px;
+}

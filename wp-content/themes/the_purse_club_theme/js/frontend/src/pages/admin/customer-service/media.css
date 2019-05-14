@@ -1,0 +1,202 @@
+/* Custom, iPhone Retina */ 
+
+@media only screen and (min-width : 320px) {
+    .cs-contact-first {
+		padding-right: 0;
+    	padding-left: 0;
+    }
+
+	.cs-contact-sec {
+		padding-bottom: 40px;
+    }
+
+	.cs-contact-sec h2 {
+		font-size: 284%;
+		margin-top: 0;
+		padding: 0 8px;
+
+    }
+
+	.cs-icons-box img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+	.cs-contact-sec p {
+        text-align: center;
+        float: none;
+        margin-bottom: 30px;
+	}
+
+	.cs-contact-second {
+		padding-right: 0;
+    }
+    
+    .cs-contact-second-sec {
+        padding-bottom: 50px;
+    }
+
+	.cs-contact-second-sec h3 {
+		margin-top: 0;
+    }
+
+	.underline-customer-second {
+		width: 35%;
+    }
+
+	.cs-social-box {
+		text-align: center;
+		padding: 0px 63px;
+    }
+
+}
+    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+    .cs-contact-sec {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width : 640px) {
+
+    .cs-icons-box img {
+        float: left;
+        margin-left: 22px;
+    }
+
+    .cs-contact-sec {
+        padding-bottom: 51px;
+    }
+
+    .cs-contact-sec p {
+        text-align: none;
+        float: left;
+        font-size: 108%;
+    }
+
+    .cs-contact-sec {
+        padding-top: 82px;
+    }
+
+    .cs-icons-box {
+        text-align: center;
+    }
+    
+    .cs-icons-box.clearfix li {
+        display: inline-block;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .cs-contact-sec {
+        padding-top: 40px;
+    }
+
+    .cs-contact-second-sec {
+        background-color: #ebebeb;
+        border: 1px solid;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        border-left: none;
+    } 
+
+    .cs-contact-second-sec h3 {
+        text-align: center;
+        font-size: 184%;
+        margin-bottom: 0;
+        margin-top: 35px;
+        font-weight: 300;
+    }
+
+    .cs-contact-second-sec h2 {
+        text-align: center;
+        font-size: 290%;
+        font-weight: 700;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    .underline-customer-second {
+        width: 37%;
+        border: 1px solid;
+        margin: 0 auto;
+        margin-bottom: 23px;
+    }	
+
+    .cs-contact-sec h2 {
+        text-align: center;
+        font-size: 357%;
+        font-weight: 700;
+        margin-top: 42px;
+    }
+
+    .cs-contact-sec p {
+        font-size: 110%;
+    }
+
+    .cs-icons-box {
+        text-align: center;
+    }
+
+    .cs-contact-second-sec {
+        padding-bottom: 80px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .cs-icons-box {
+        text-align: center;
+    }
+
+    .cs-contact-sec img {
+        float: left;
+        margin-left: 0;
+        padding-right: 10px;
+    }
+    
+    .cs-contact-sec p {
+        font-size: 135%;
+    }
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+    
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

@@ -1,0 +1,105 @@
+.upsell-modal.version-two .ups-colum-right {
+    max-width: 390px;
+    padding: 0;
+    margin-top: 154px;
+}
+
+p.title-with-shadow {
+    text-align: left;
+    font-size: 270%;
+    font-weight: bold;
+    color: #3d0000;
+    letter-spacing: -1px;
+    font-family: 'Lato', sans-serif;
+}
+
+.ups-colum-right {
+    margin-top: 154px;
+    padding: 0;
+    text-align: right;
+    display: block;
+    clear: both;
+    width: 100%;
+    max-width: 417px;
+    margin: auto;
+    margin-right: 0;
+}
+
+p.vuluePricie  {
+    font-size: 430%;
+    margin-bottom: 10px !important;
+    font-weight: bolder;
+}
+
+.upTypography {
+    font-family: 'Myriad Pro';
+    text-align: right;
+}
+
+.ups-colum-right h2 {
+    font-weight: bold;
+    font-size: 202%;
+    letter-spacing: 1px;
+    margin-top: 0px !important;
+}
+
+.ups-colum-right p {
+    font-size: 160%;
+    line-height: normal;
+    letter-spacing: 0px;
+}
+
+.ups-colum-right-bt {
+    max-width: 390px;
+    padding: 0;
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+div.yes-upsell a {
+    width: 100% !important;
+    border-radius: 0 !important;
+    letter-spacing: 1px !important;
+    line-height: 1;
+    text-align: center !important;
+    font-size: 191% !important;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    background-color: #ca101b !important;
+    padding: 29px 10px !important;
+    margin-bottom: 0;
+}
+
+.upsell2-main-container {
+    min-height: 730px !important;
+}
+
+.upsell2-price {
+    padding-bottom: 30px;
+    font-size: 400% !important;
+}
+
+.upsell2-deluxe h2 {
+    font-size: 255%;
+}
+
+.upsell2-deluxe p {
+    margin-bottom: 40px;
+}
+
+.upsell2-order {
+    margin-bottom: 30px;
+}
+
+.upsell2-decline {
+    text-align: center;
+}
+
+.upsell2-decline a {
+    font-size: 230%;
+}
